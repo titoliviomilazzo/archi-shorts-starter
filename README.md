@@ -8,6 +8,7 @@ archi-shorts 파이프라인 중 학생이 직접 쓰는 스크립트와 문서 
 starter-kit/
   scripts/       실행 스크립트 + 의존 모듈
   templates/     대본·프롬프트·검수·게시 문서 템플릿 5종
+  docs/          주차별 실습지·크레딧 장부
   media/         (직접 생성) 클립·오디오·렌더 결과물 — git에 올리지 않음
   episodes/      (직접 생성) ep.py init이 편별 폴더를 만드는 위치
 ```
