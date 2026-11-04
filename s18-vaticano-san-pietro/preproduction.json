@@ -1,0 +1,840 @@
+{
+  "episode": "s18-vaticano-san-pietro",
+  "script_review": {
+    "changes": [],
+    "remaining": [
+      "탁자 위 장치는 교육용 축소 재현이며 실물 역사 장치의 치수·매듭 수를 확정하지 않는다.",
+      "여섯 철제 고리의 정확한 높이·경로는 당대 도판 로컬자산 확보 후 고정한다. 임의 등간격 배치 금지.",
+      "뒤집은 사슬 곡선은 힘의 경로를 살피는 모형이며 돔의 전체 안정성을 단독으로 증명한 것으로 묘사하지 않는다.",
+      "물리환경+정보효과 2개 조합에 적합한 범용 DB 후보가 부족하다. 부적합한 도로/콜로세움 효과는 미채택."
+    ],
+    "verdict": "SCRIPT_REVIEWED_96; PROMPT_DRAFT_REFERENCE_REQUIRED"
+  },
+  "visual_bible": {
+    "format": "vertical9:16 scholarly cinematic reconstruction, tool-scale mystery rather than another long dome postcard",
+    "era": "1740s educational workshop reconstruction; historical diagrams only as licensed source edits",
+    "palette": "muted lead grey, warm iron brown, ivory paper, dark walnut; warm directional daylight",
+    "geometry_locks": [
+      "consistent two suspension points and same weighted line for c03–c13",
+      "variable weights correspond to dome segments, not equal decorative beads",
+      "only plotted curve rotates; real hanging chain never floats upright",
+      "six reinforcement hoops follow source plate in drum and cap at distinct verified heights"
+    ],
+    "continuity": "tabletop foreground and basilica distant silhouette are a clearly composite editorial comparison, not a claim the real experiment stood at a Vatican window"
+  },
+  "reference_requirements": [
+    {
+      "id": "R1",
+      "url": "https://doi.org/10.1016/j.foar.2022.06.012",
+      "needed": "Poleni variable-weight hanging-chain model and its correct relationship to a dome meridian",
+      "rights_status": "REFERENCE_REQUIRED; obtain readable figure and derivative-use rights before source edit"
+    },
+    {
+      "id": "R2",
+      "url": "https://antiquorum-habet.senato.it/index.php/section/section_61_en/",
+      "needed": "1748 historical plate showing exact six reinforcement ring levels and largest diameter",
+      "rights_status": "REFERENCE_REQUIRED; ring-position image must be supplied, do not infer from prose"
+    },
+    {
+      "id": "R3",
+      "url": "https://www.iccrom.org/sites/default/files/2018-02/1990_stone_masonry_athens_49219_light.pdf",
+      "needed": "existing dome shells, crack pattern and reinforcement interpretation for technical comparison",
+      "rights_status": "REFERENCE_REQUIRED; match a specific figure before rendering cracks or rings"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "P1",
+      "cuts": [
+        "c01",
+        "c02"
+      ],
+      "purpose": "사슬 크기와 큰 돔의 간극으로 질문",
+      "location": "editorial tabletop/basilica comparison and documented crack detail",
+      "era": "1740s reconstruction; source edit for real geometry",
+      "reveal": "chain appears too small",
+      "transition": "crack texture to chain link by hard match cut"
+    },
+    {
+      "id": "P2",
+      "cuts": [
+        "c03",
+        "c04"
+      ],
+      "purpose": "작은 장치의 쓰임을 궁금하게 만듦",
+      "location": "workshop apparatus full view and scale-comparison board",
+      "era": "1740s educational reconstruction",
+      "reveal": "tool fits a tabletop",
+      "transition": "wide apparatus to heavy bead macro"
+    },
+    {
+      "id": "P3",
+      "cuts": [
+        "c05",
+        "c06",
+        "c07",
+        "c08"
+      ],
+      "purpose": "추의 차이와 처진 선의 의문",
+      "location": "weight detail, paired sectional model, stable chain silhouette and diagram board",
+      "era": "timeless model using period-compatible materials",
+      "reveal": "different loads leave a stable curve",
+      "transition": "camera aligns curve with drawing plane"
+    },
+    {
+      "id": "P4",
+      "cuts": [
+        "c09",
+        "c10",
+        "c11"
+      ],
+      "purpose": "사슬을 뒤집어 읽는 중반 반전",
+      "location": "rotatable plotted tracing and nonliteral dome segment model",
+      "era": "explicit analytical model",
+      "reveal": "the line is an analysis tool rather than wrapping material",
+      "transition": "rotated tracing aligns with dome meridian"
+    },
+    {
+      "id": "P5",
+      "cuts": [
+        "c12",
+        "c13"
+      ],
+      "purpose": "실제 돔 단면 안에서 힘길을 읽음",
+      "location": "source-based dome meridian and masonry contact detail",
+      "era": "historical diagram plus analytical overlay",
+      "reveal": "path passes through neighboring masonry",
+      "transition": "paper texture to actual masonry exterior"
+    },
+    {
+      "id": "P6",
+      "cuts": [
+        "c14",
+        "c15",
+        "c16",
+        "c17"
+      ],
+      "purpose": "분석 모형과 실제 고리 보강을 분리",
+      "location": "basilica exterior, exact historical ring plate, one hoop detail and verified broadest hoop",
+      "era": "1743–1748 reinforcement reconstruction",
+      "reveal": "six real hoops restrain outward spreading",
+      "transition": "large hoop curve match-cuts to small apparatus"
+    },
+    {
+      "id": "P7",
+      "cuts": [
+        "c18"
+      ],
+      "purpose": "처음의 작은 사슬을 유능한 도구로 회수",
+      "location": "opening apparatus with separate meridian tracing overlay",
+      "era": "editorial analytical composite",
+      "reveal": "small tool reads a giant dome, it never physically carries the basilica",
+      "transition": "settle on a single curve"
+    }
+  ],
+  "shots": [
+    {
+      "id": "c01",
+      "scene": "P1",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1",
+        "R2"
+      ],
+      "action": "작은 사슬과 큰 돔 대비",
+      "camera": "50mm low tabletop close view; slow focus pull toward distant dome silhouette",
+      "light": "warm window light from upper viewer-left",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "small chain hangs from two fixed supports",
+        "basilica silhouette is separate editorial comparison"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No chain wrapped around basilica; no giant floating chain or people.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm small chain hangs from two fixed supports",
+        "Confirm basilica silhouette is separate editorial comparison"
+      ],
+      "image_prompt_en": "Compose a deliberately editorial comparison: a short weighted chain hangs between two fixed wooden posts on a dark walnut bench in the foreground, while a separate softly focused silhouette of Saint Peter’s dome occupies the upper background. The lead weights and iron links are large enough to read on a phone. Keep the chain clearly attached to the posts and smaller than the tabletop. This is a reconstructed teaching setup, not a claim that Poleni conducted his experiment at a specific Vatican window. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 50mm low tabletop close view; slow focus pull toward distant dome silhouette. Light direction: warm window light from upper viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "50mm low tabletop close view; slow focus pull toward distant dome silhouette",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.44,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.56,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c02",
+      "scene": "P1",
+      "asset_type": "source_edit",
+      "reference_ids": [
+        "R3"
+      ],
+      "action": "기록된 균열과 작은 장치 연결",
+      "camera": "85mm detail of source-supported masonry crack; short push",
+      "light": "raking daylight from viewer-right",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "crack pattern follows supplied record",
+        "no change in crack opening"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No fresh collapse, missing dome segment or invented crack map.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm crack pattern follows supplied record",
+        "Confirm no change in crack opening"
+      ],
+      "image_prompt_en": "Frame a short vertical masonry fissure from the documented dome damage record, using a supplied source image or a faithful derivative crop rather than inventing a dramatic new crack network. Rough plaster and brick texture should be legible under raking light; the fissure stays open by the same small amount throughout. In the lower edge include an out-of-focus iron chain link as an editorial visual bridge to the workshop. Avoid implying immediate collapse, falling fragments or an authenticated location not established by the source. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Generate no new lettering, numerals, logos or watermark. Keep any required original source lettering only in its source layer, with attribution added separately in editing. Use the supplied licensed source as the unchanged evidence base; crop or highlight without generating substitute historical geometry. Camera: 85mm detail of source-supported masonry crack; short push. Light direction: raking daylight from viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "85mm detail of source-supported masonry crack; short push",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.86,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.14,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c03",
+      "scene": "P2",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "두 지지점 사이 크기 확인",
+      "camera": "35mm three-quarter bench view with both posts visible",
+      "light": "soft window light from high viewer-left",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "one stable pair of suspension points",
+        "weights differ in size"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No modern lab electronics, uniform necklace beads or missing supports.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm one stable pair of suspension points",
+        "Confirm weights differ in size"
+      ],
+      "image_prompt_en": "Show the full teaching apparatus on a single bench from a three-quarter angle. Two plain wooden supports hold the ends of one linked line, with several unequally sized grey weights attached between them. Include the bench edges and one plain draughting sheet to make its tabletop scale immediately understandable, without adding numerical rulers. Keep both suspension points visible and preserve their positions for all later close-ups. The line sags naturally under gravity; no unsupported link rises above either attachment. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 35mm three-quarter bench view with both posts visible. Light direction: soft window light from high viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "35mm three-quarter bench view with both posts visible",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.72,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.28,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c04",
+      "scene": "P2",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "성당 둘레를 묶을 도구처럼 보이지 않는 크기",
+      "camera": "70mm side-on tabletop and separate scale board",
+      "light": "late window key from viewer-left",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "doorway is separate illustration",
+        "same small apparatus retained"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No miniature person, literal chain measuring historic door or fake dimensional values.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm doorway is separate illustration",
+        "Confirm same small apparatus retained"
+      ],
+      "image_prompt_en": "Place the same small hanging apparatus in the lower foreground and a large unlettered architectural elevation of a doorway on a separate upright drawing board behind it. The board is an illustrative scale comparison, not the physical building placed on the bench. Keep the lead weights sharply focused and the doorway softer so the visual joke remains the inadequacy of a tiny wrapping material. Maintain the same two posts, dark table and gravity-sagging line; do not add a second chain or numerical measurement. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 70mm side-on tabletop and separate scale board. Light direction: late window key from viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "70mm side-on tabletop and separate scale board",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.17,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.83,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c05",
+      "scene": "P3",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "서로 다른 추를 접사",
+      "camera": "100mm macro along central third of chain",
+      "light": "warm raking key from upper viewer-right",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "weights are unequal",
+        "each weight loads the same continuous line"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No gold necklace, equal marbles, decorative gems or disconnected masses.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm weights are unequal",
+        "Confirm each weight loads the same continuous line"
+      ],
+      "image_prompt_en": "Make a tactile macro image of two neighboring lead weights of visibly different volume threaded or attached to the same iron line according to the reference construction. The nearer weight catches a narrow highlight, the smaller one sits just behind it, and both pull downward from the line. Show dull lead, oxidized iron and restrained tool marks rather than polished jewelry. The background wooden support is soft but recognizable from the previous shot, keeping this detail part of the same experiment. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 100mm macro along central third of chain. Light direction: warm raking key from upper viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "100mm macro along central third of chain",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.75,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.25,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c06",
+      "scene": "P3",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "추와 돔 부분 무게 대응",
+      "camera": "50mm paired physical-model view, not split-screen text",
+      "light": "diffuse daylight from upper viewer-left",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "segment-weight correspondence is illustrative",
+        "weights remain unequal"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No invented mass numerals or fake complete structural calculation.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm segment-weight correspondence is illustrative",
+        "Confirm weights remain unequal"
+      ],
+      "image_prompt_en": "Create a separate analytical teaching model beside the apparatus: several meridian slices of the dome are aligned left to right on ivory cards, paired spatially with the unequal weights beneath them. Use only a few source-supported segments and preserve their correspondence by position and neutral material tone, leaving exact masses to later verified graphics. The real hanging line remains untouched in the background. This image explains the principle of proportional loading; it is not a new engineering calculation or a claim that the displayed slice geometry reproduces an authenticated Poleni workshop artifact. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 50mm paired physical-model view, not split-screen text. Light direction: diffuse daylight from upper viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "50mm paired physical-model view, not split-screen text",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 4.39,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0,
+        "overflow_seconds": 0.39,
+        "overflow_plan": "4초 영상 뒤에 같은 승인 스틸의 정지 디테일 인서트를 추가해 남은 낭독을 잇는다. 흐르는 물·움직이는 장치를 그대로 정지시키지 않고, 석재·접촉선·종이 도판 등 정적 고정점으로 컷인한다. 최종 녹음 후 다시 배분한다."
+      }
+    },
+    {
+      "id": "c07",
+      "scene": "P3",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "흔들림이 멎은 선",
+      "camera": "85mm frontal isolated chain profile",
+      "light": "low warm side light from viewer-right",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "stable gravity-sagging shape",
+        "supports fixed at both ends"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No physical inversion, magnetic levitation or exaggerated motion blur.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm stable gravity-sagging shape",
+        "Confirm supports fixed at both ends"
+      ],
+      "image_prompt_en": "Isolate the weighted line frontally against a nearly dark workshop background. Both suspension points remain just inside the upper corners, and every weight hangs vertically from a naturally sagging curve. Capture the instant after slight motion has settled, with the links crisp and the lead surfaces quietly illuminated. The empty space above the line should feel like a missing answer. Keep the apparatus unchanged from the previous views so viewers can recognize the same curve that will soon be traced and inverted. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 85mm frontal isolated chain profile. Light direction: low warm side light from viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "85mm frontal isolated chain profile",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.97,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.03,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c08",
+      "scene": "P3",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1",
+        "R2"
+      ],
+      "action": "처진선과 돔도면이 아직 안 맞는 긴장",
+      "camera": "65mm eye-level line and blank meridian board",
+      "light": "soft high-left window light",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "actual chain still sags",
+        "dome meridian is separate diagram"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No inverted physical chain, direct stone loading on wire or fake engineering labels.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm actual chain still sags",
+        "Confirm dome meridian is separate diagram"
+      ],
+      "image_prompt_en": "Frame the settled chain in the lower half and a separate upright ivory board carrying the verified outline of a dome meridian in the upper half. The line on the board rises while the real chain sags, making their apparent mismatch immediately visible. Both outlines stay separate and unchanged; the stone building is not modeled as suspended from the chain. Place a plain transparent tracing sheet beside the apparatus as a small practical clue to the next action. Keep the visual question contained in this single bench-scale composition. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 65mm eye-level line and blank meridian board. Light direction: soft high-left window light.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "65mm eye-level line and blank meridian board",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.45,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.55,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c09",
+      "scene": "P4",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "종이 위 곡선만 반바퀴 뒤집음",
+      "camera": "50mm overhead tracing-table view; gentle clockwise camera drift",
+      "light": "broad window light from upper viewer-left",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "only traced curve rotates",
+        "physical chain remains downward"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No floating inverted weights or architectural morphing.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm only traced curve rotates",
+        "Confirm physical chain remains downward"
+      ],
+      "image_prompt_en": "Show a transparent tracing sheet with the actual settled chain curve transferred onto it, lying above the apparatus drawing on a dark bench. Capture the sheet midway through a half-turn around a visible central pin in an explicitly analytical presentation; no hand is required. The real weighted chain is still hanging downward at the edge of the frame, unchanged by this manipulation. Keep the pin and paper edges readable so viewers understand that a diagram is rotating rather than gravity reversing or the masonry transforming. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 50mm overhead tracing-table view; gentle clockwise camera drift. Light direction: broad window light from upper viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "50mm overhead tracing-table view; gentle clockwise camera drift",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.25,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.75,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c10",
+      "scene": "P4",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "뒤집힌 곡선이 아치선과 맞음",
+      "camera": "70mm front-on paired curve model",
+      "light": "warm key from upper viewer-right",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "upper curve is inversion of same lower curve",
+        "curve is not assumed semicircular"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No chain turning into stone, self-building arch or unsupported actual blocks.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm upper curve is inversion of same lower curve",
+        "Confirm curve is not assumed semicircular"
+      ],
+      "image_prompt_en": "Present the inverted tracing as an upward arch-shaped line on an ivory plane, with the original hanging chain profile retained on a separate lower plane for comparison. A small masonry arch segment sits behind the upper curve without being physically assembled by it. Preserve the exact reversed curve rather than replacing it with a perfect semicircle. The visual discovery is geometric: a hanging equilibrium shape can be read upside down for compression. Keep the curve readable and the surrounding materials quiet, avoiding an explosion of arrows or an entire building rising from paper. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 70mm front-on paired curve model. Light direction: warm key from upper viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "70mm front-on paired curve model",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.96,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.04,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c11",
+      "scene": "P4",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "추의 차이가 돔조각 차이였음을 회수",
+      "camera": "85mm oblique series of segments and hanging masses",
+      "light": "diffuse high-right studio light",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "same earlier segment order",
+        "no actual dome suspended from weights"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No equal weight substitution, misordered pairs or fake mass labels.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm same earlier segment order",
+        "Confirm no actual dome suspended from weights"
+      ],
+      "image_prompt_en": "Place a short row of dome meridian segment models above their corresponding unequal lead weights, now aligned with the inverted tracing that revealed the method. Use the same segment order and weight order established earlier, with a small gap between the paper planes to show that they are analytical representations rather than a machine lifting real stone. Light one corresponding pair most clearly while keeping the neighboring pairs visible at lower contrast. The image must explain proportional loading without invented dimensions, numerical masses or a claim of exact experimental replication. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 85mm oblique series of segments and hanging masses. Light direction: diffuse high-right studio light.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "85mm oblique series of segments and hanging masses",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.53,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.47,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c12",
+      "scene": "P5",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1",
+        "R2"
+      ],
+      "action": "참고도판의 정적인 단면선과 뒤집힌 사슬곡선의 관계를 보존한다. 효과 애니메이션은 c13에서만 적용한다.",
+      "camera": "orthographic source-based dome meridian, fixed framing",
+      "light": "neutral even illumination from upper viewer-left",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "section geometry must come from source",
+        "tracing is force-path model not repair material"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No fabricated shell thickness, exact load claim or guessed curve fit.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm section geometry must come from source",
+        "Confirm tracing is force-path model not repair material"
+      ],
+      "image_prompt_en": "Use the verified historical meridian section of Saint Peter’s dome as the controlling geometry, showing the shell thicknesses and support region exactly as the supplied plate records them. Overlay the inverted weighted-line tracing in a restrained warm tone within that section, preserving its scale and placement from the scholarly reference. The traced line is not automatically a hoop, a repair joint or a crack. Keep the drawing on one clean ivory plane with enough margin to inspect the relationship; do not invent a simplified shell profile when the source figure has not yet been supplied. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: orthographic source-based dome meridian, fixed framing. Light direction: neutral even illumination from upper viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "orthographic source-based dome meridian, fixed framing",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.59,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.41,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c13",
+      "scene": "P5",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1",
+        "R3"
+      ],
+      "action": "이웃 돌로 압축력이 전해짐",
+      "camera": "100mm model cut through adjoining masonry units",
+      "light": "raking light from upper viewer-right",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "contacts remain closed",
+        "path stays within masonry section"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No tension cable inside stones, floating blocks or universal stability proof.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm contacts remain closed",
+        "Confirm path stays within masonry section"
+      ],
+      "image_prompt_en": "Show a small source-consistent portion of the dome meridian as a physical masonry teaching model. Adjacent brick or stone units meet through realistic mortar contacts; a narrow warm illumination follows the compression path through those contacts without lifting or separating the units. Keep the path within the masonry section and let the contact planes remain visible around it. This close view explains how neighboring pieces push on one another, while making no claim to calculate all three-dimensional dome forces or resolve every historical stability debate. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 100mm model cut through adjoining masonry units. Light direction: raking light from upper viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "100mm model cut through adjoining masonry units",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [
+        {
+          "id": "layer.loadpath.10",
+          "params": {
+            "상부": "the source-defined upper masonry segment of the dome meridian",
+            "중간 부재": "the adjacent masonry contact regions along the verified meridian curve",
+            "기초": "the source-defined lower support region of that meridian section"
+          },
+          "why": "압축력이전달되는해석경로후보. observed이므로시험용. 실제모드/안정해석결과가아니다."
+        }
+      ],
+      "edit_timing": {
+        "measured_narration_seconds": 3.36,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.64,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c14",
+      "scene": "P6",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R2",
+        "R3"
+      ],
+      "action": "종이밖 실제돔으로 질문 전환",
+      "camera": "40mm dome drum oblique exterior from reference viewpoint",
+      "light": "warm sunset light from viewer-left rear",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "dome and drum relationship exact",
+        "no rings exposed before reveal"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No imaginary scaffolding, modern crane or extra dome shell.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm dome and drum relationship exact",
+        "Confirm no rings exposed before reveal"
+      ],
+      "image_prompt_en": "Leave the bench and show the actual exterior relationship of the dome and its supporting drum using a faithful architectural reconstruction based on the source elevation. Frame the curved cap above and the cylindrical drum below, with restrained shadow separating their volumes. Keep the surface opaque so the real reinforcement has not yet been revealed. The camera view should establish where a full-size intervention belongs, distinct from the tiny analysis apparatus. Avoid panoramic sightseeing details that would distract from the dome support region. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 40mm dome drum oblique exterior from reference viewpoint. Light direction: warm sunset light from viewer-left rear.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "40mm dome drum oblique exterior from reference viewpoint",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.74,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.26,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c15",
+      "scene": "P6",
+      "asset_type": "source_edit",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "여섯고리를 도판정확위치에 공개",
+      "camera": "source-plate frontal section; no perspective invention",
+      "light": "even paper illumination from upper left",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "exactly six added hoops",
+        "levels follow historical plate not guessed spacing"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No equal-spacing shortcut, extra hoops or generated pseudo-historical writing.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm exactly six added hoops",
+        "Confirm levels follow historical plate not guessed spacing"
+      ],
+      "image_prompt_en": "Use the historical reinforcement plate reproduced in the Senate collection as the controlling image, retaining the exact dome outline, drum and six documented hoop levels. Isolate the six additional iron circles through restrained warm highlights that follow the existing marks on the plate; do not draw any new hoop, infer a seventh level or space the circles evenly . Retain original lettering only within a rights-cleared source layer. If the plate image is missing, this shot remains reference-required instead of substituting a plausible but invented ring arrangement. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Generate no new lettering, numerals, logos or watermark. Keep any required original source lettering only in its source layer, with attribution added separately in editing. Use the supplied licensed source as the unchanged evidence base; crop or highlight without generating substitute historical geometry. Camera: source-plate frontal section; no perspective invention. Light direction: even paper illumination from upper left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "source-plate frontal section; no perspective invention",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.74,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.26,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c16",
+      "scene": "P6",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R2",
+        "R3"
+      ],
+      "action": "한철제 고리가 바깥벌어짐에 저항",
+      "camera": "85mm source-based sectional iron hoop detail",
+      "light": "warm side key from viewer-right",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "circumferential restraint",
+        "actual masonry and hoop remain fixed"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No self-healing fissure, radial tightening cable or invented modern turnbuckle.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm circumferential restraint",
+        "Confirm actual masonry and hoop remain fixed"
+      ],
+      "image_prompt_en": "Create a localized analytical section at one verified reinforcement level, showing an iron circumferential member in firm contact with the masonry region it restrains according to the documented construction detail. Preserve the curvature and any source-supported joint configuration; do not invent exposed modern bolts or hydraulic clamps. Use a small separate faint outline to indicate an exaggerated outward tendency only, while the actual stone and iron remain fixed. The real event is restraint around a circumference, not cracks magically sealing or a chain crushing the dome inward. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 85mm source-based sectional iron hoop detail. Light direction: warm side key from viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "85mm source-based sectional iron hoop detail",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.25,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.75,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c17",
+      "scene": "P6",
+      "asset_type": "source_edit",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "가장큰고리 스케일 확인",
+      "camera": "orthographic full width of source-selected largest hoop",
+      "light": "neutral high-left illumination",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "largest hoop diameter belongs to verified source",
+        "hoop remains at documented level"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No generated 60m lettering, guessed hoop height or solid metal disk.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm largest hoop diameter belongs to verified source",
+        "Confirm hoop remains at documented level"
+      ],
+      "image_prompt_en": "Frame the largest documented reinforcement circle in its historical plate context, wide enough to show the true relationship between that circle, the dome drum and surrounding masonry. Keep a clean empty margin beside it for the verified diameter annotation to be composited later. The circle is a circumference around the building, not a flat disk or a separate giant ring floating in the square. Do not relocate it to the crown simply because that gives a clearer silhouette; its location must be read from the actual source image. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Generate no new lettering, numerals, logos or watermark. Keep any required original source lettering only in its source layer, with attribution added separately in editing. Use the supplied licensed source as the unchanged evidence base; crop or highlight without generating substitute historical geometry. Camera: orthographic full width of source-selected largest hoop. Light direction: neutral high-left illumination.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "orthographic full width of source-selected largest hoop",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.77,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.23,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c18",
+      "scene": "P7",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1",
+        "R2"
+      ],
+      "action": "小사슬위에 큰돔 힘길을 회수",
+      "camera": "same50mm foreground apparatus lens as opening, locked composition",
+      "light": "same warm window key from upper viewer-left",
+      "palette": "ivory paper, muted lead grey, dark walnut and warm wrought iron",
+      "factual_anchors": [
+        "same physical chain as opening",
+        "dome drawing is analytical overlay not actual load"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No literal basilica balanced on apparatus, inverted physical weights or magical shrinkage.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm same physical chain as opening",
+        "Confirm dome drawing is analytical overlay not actual load"
+      ],
+      "image_prompt_en": "Return to the opening bench composition with the same two posts, unequal lead weights and naturally hanging iron line. Above the apparatus, place a separate transparent upright tracing of the verified dome meridian aligned to the inverted analytical curve, leaving clear air between drawing plane and real chain. The distant basilica silhouette is soft and unchanged. The final impression is that a small physical model makes a large structure legible, not that it holds the structure up. Finish on one crisp line shared by the remembered experiment and drawing. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: same50mm foreground apparatus lens as opening, locked composition. Light direction: same warm window key from upper viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and paper tracing or explanatory light only; chain may settle subtly but never invert physically",
+        "static": "apparatus supports, table, existing masonry, reinforcement hoop geometry and background architecture",
+        "camera": "same50mm foreground apparatus lens as opening, locked composition",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 4.26,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0,
+        "overflow_seconds": 0.26,
+        "overflow_plan": "4초 영상 뒤에 같은 승인 스틸의 정지 디테일 인서트를 추가해 남은 낭독을 잇는다. 흐르는 물·움직이는 장치를 그대로 정지시키지 않고, 석재·접촉선·종이 도판 등 정적 고정점으로 컷인한다. 최종 녹음 후 다시 배분한다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,970 @@
+{
+  "episode": "s16-paris-eiffel",
+  "script_review": {
+    "changes": [
+      "템플릿의 첫 질문을 실제 첫 훅 질문인 공중 들보 틈의 조절 위치로 정정. 낭독문은 변경하지 않았다.",
+      "c01/c16/c17의 접합 간극 전후를 실제 사진 편집으로 오인하지 않도록 analytical_model로 정정했다. 기하 형태는 원본 기술 도판 확보 후 고정한다."
+    ],
+    "remaining": [
+      "S 점수97은 대본 단계 판단이다. 실제 스틸/영상/최종 Typecast 음성은 미검증.",
+      "범용 DB에서 이 시대·형상에 맞는 물리환경 효과와 정보효과 쌍을 모든 컷에 다양하게 배치할 근거가 부족하다. 적합한 후보만 기재했으며 effects=[]인 컷과 단일 후보 컷은 효과 선정을 완료한 생성용 프롬프트로 표시하지 않는다.",
+      "R1~R3 원본 참고자료 확보와 권리 확인이 필요하다."
+    ],
+    "verdict": "SCRIPT_REVIEWED; SCENE_AND_CORE_PROMPTS_COMPLETE; REFERENCES_AND_EFFECT_PAIRING_PENDING",
+    "self_review": {
+      "date": "2026-11-05",
+      "cuts_checked": "17/17",
+      "scenes_checked": "8/8",
+      "narration_changed": false,
+      "prompt_words_min": 156,
+      "prompt_words_max": 172,
+      "passed": [
+        "모든 컷의 단일 행동과 사실 고정점2개 이상",
+        "1887년 공사 단계와 임시잭/비계모래받침/영구쐐기 분리",
+        "첫 틈과 엔딩 틈의 카메라 및 형상 콜백",
+        "A/B 변형은 시점·빛만 변경",
+        "얼굴·허구 명문·현대 안테나·용접·철재 모핑 억제"
+      ],
+      "pending": [
+        "참고도판 원본 및 사용권",
+        "모든 컷의 물리환경+정보 효과2개 선정과 회전규칙 검증",
+        "실제 생성물·영상·최종음성 검수"
+      ]
+    }
+  },
+  "visual_bible": {
+    "format": "vertical9:16, photoreal editorial reconstruction with explicit analytical-model states",
+    "hero": "The same small strip of sky at one period iron joint opens and closes the story.",
+    "continuity": "1887 first-level assembly, authentic puddled-iron and riveted plates; distinguish footing hydraulic jacks from sandboxes on timber staging. One closed contact path for every support.",
+    "palette": "warm period brown iron, pale limestone and timber, restrained blue daylight; no arbitrary neon across every cut",
+    "lighting": "each shot states directional daylight; metal texture remains readable with dark edge accents",
+    "era_limits": "No completed tower beyond source construction stage, no modern antenna, tourist deck, welding or persistent hydraulic suspension.",
+    "callback": "c16/c17 deliberately return to c01 as the required ending; other scene locations are new scale or analytical views with new evidence."
+  },
+  "reference_requirements": [
+    {
+      "id": "R1",
+      "url": "https://www.toureiffel.paris/en/the-monument/history",
+      "needed": "Construction chronology and dated site photographs showing first-level assembly, four inclined legs and temporary timber scaffolds.",
+      "rights_status": "Official source for research; image reuse/export rights not yet cleared."
+    },
+    {
+      "id": "R2",
+      "url": "https://www.toureiffel.paris/fr/le-monument/histoire",
+      "needed": "Original dated photograph or drawing of the first-level main-girder joining geometry. Exact joint plates, end orientation and visible scaffolds must come from this acquired asset, not an invented generic junction.",
+      "rights_status": "Specific downloadable archival detail not yet acquired; HOLD source_edit shots until acquired and rights checked."
+    },
+    {
+      "id": "R3",
+      "url": "https://www.toureiffel.paris/en/the-monument/history",
+      "needed": "Construction drawing or archival technical detail distinguishing footing hydraulic jacks, scaffold sandboxes, and permanent wedges. The official text confirms these aids and one-millimetre positioning, but is not enough to invent device placement.",
+      "rights_status": "Text confirmed in prior script research; specific technical visual and reuse permission pending."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "cuts": [
+        "c01"
+      ],
+      "purpose": "틈이 닫히기 직전의 미완성 결과로 첫 3초를 붙잡는다.",
+      "location": "첫 층 접합부 A의 기록 기반 확대",
+      "era": "1887년 12월 첫 층 주들보 연결 단계",
+      "reveal": "맞닿지 않은 두 끝과 그 사이 하늘",
+      "transition": "틈을 통과하는 시선에서 공사 현장 전체로 컷"
+    },
+    {
+      "id": "S02",
+      "cuts": [
+        "c02",
+        "c03",
+        "c04",
+        "c05"
+      ],
+      "purpose": "네 다리가 따로 서고 안쪽으로 기울어 공중에서 만나야 한다는 공간 문제를 이해시킨다.",
+      "location": "건설 현장 전체/네 다리 분석 모형",
+      "era": "1887년 첫 층 조립",
+      "reveal": "네 독립 지지부를 한 층으로 묶는 폐합",
+      "transition": "전체 형상에서 접합부 B로 내려앉는 크기 대비"
+    },
+    {
+      "id": "S03",
+      "cuts": [
+        "c06",
+        "c07",
+        "c08"
+      ],
+      "purpose": "관객 시선을 틈에 붙잡아 직접 두드리는 해법을 예상하게 한다.",
+      "location": "첫 층 접합부 B 측면",
+      "era": "동일 건설 단계의 분석 복원",
+      "reveal": "망치는 관객의 가정이며 실제 타격은 발생하지 않는다.",
+      "transition": "상부 틈에서 하부로 강한 수직 시선 이동"
+    },
+    {
+      "id": "S04",
+      "cuts": [
+        "c09",
+        "c10"
+      ],
+      "purpose": "조절하는 곳이 공중이 아니라 발밑이라는 위치 반전",
+      "location": "다리 곡선의 연결 시선/기초 잭 도식",
+      "era": "1887년 임시 조정 단계",
+      "reveal": "실제 압축 접촉이 있는 하부 조절 장치",
+      "transition": "잭의 작은 조절을 상부 접합 위치에 연결"
+    },
+    {
+      "id": "S05",
+      "cuts": [
+        "c11",
+        "c12"
+      ],
+      "purpose": "하부 조정과 상부 위치 변화의 인과 및 모래 받침/잭의 구분",
+      "location": "일체형 구조 모형/임시 목재 비계 받침",
+      "era": "1887년 조정 원리 분석",
+      "reveal": "장치 종류별 장소와 역할이 서로 다름",
+      "transition": "모형의 조절 결과를 실제 접합부 C로 컷"
+    },
+    {
+      "id": "S06",
+      "cuts": [
+        "c13"
+      ],
+      "purpose": "들보가 제자리를 찾는 첫 해결 보상",
+      "location": "첫 층 접합부 C의 조립 접점",
+      "era": "1887년 연결 완료 직전",
+      "reveal": "강체 부재의 위치 정렬",
+      "transition": "고정된 접합부에서 하부 지지 질문으로 이동"
+    },
+    {
+      "id": "S07",
+      "cuts": [
+        "c14",
+        "c15"
+      ],
+      "purpose": "임시 잭은 영구 지지가 아니라는 두 번째 발견",
+      "location": "기초 조정 상세의 전후 비교",
+      "era": "공사 중 잭 설치 상태와 교체 후를 구분한 도식",
+      "reveal": "잭 대신 맞물리는 영구 쐐기",
+      "transition": "쐐기 밀착 형상에서 위쪽 들보 접촉선으로 매치컷"
+    },
+    {
+      "id": "S08",
+      "cuts": [
+        "c16",
+        "c17"
+      ],
+      "purpose": "처음의 틈으로 돌아와 하늘 한 줄이 사라지는 해결 이미지로 닫는다.",
+      "location": "S01 접합부 A의 동일 카메라 콜백",
+      "era": "동일 건설 단계",
+      "reveal": "같은 틈의 의미가 미완성에서 접합으로 바뀜",
+      "transition": "접촉선만 남기고 종료, 첫 장면 회수 허용"
+    }
+  ],
+  "shots": [
+    {
+      "id": "c01",
+      "scene": "S01",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "중앙에 남은 하늘 한 줄로 두 들보 끝의 미완성 접합을 보여준다.",
+      "camera": "100mm macro-equivalent, square to the actual mating plane",
+      "light": "upper-left afternoon daylight skims iron edges",
+      "palette": "charcoal iron / warm brown primer / narrow blue sky",
+      "factual_anchors": [
+        "서로 맞댈 두 끝과 미완성 간극",
+        "부재 끝은 독립된 강체이며 임의로 휘지 않음"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "서로 맞댈 두 끝과 미완성 간극가 화면에서 판독되는지 확인",
+        "부재 끝은 독립된 강체이며 임의로 휘지 않음가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인",
+        "상부 접합부 간극의 전후는 실제 1887년 사진 그대로의 기록처럼 제시하지 않고 정렬 원리 분석 재현으로 구분한다."
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary analytical reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Two opposed ends of first-level iron girders nearly meet across the vertical centre. A hairline of blue Paris sky remains between the end faces. Preserve every plate outline, rivet row and temporary support visible in the supplied historical joining detail. Frame the metal as two immense dark masses at left and right, with daylight trapped between them. The gap is an editorial emphasis on alignment, not a documented measurement or damage event. Show the unfinished tower beyond only as a faint fragment at the bottom, so the object remains identifiable without revealing the base jack. Camera: 100mm macro-equivalent, square to the actual mating plane. Light: upper-left afternoon daylight skims iron edges. Palette: charcoal iron / warm brown primer / narrow blue sky.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.73,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.27,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c02",
+      "scene": "S02",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "완성 상부 없이 네 다리와 임시 비계가 선 첫 층 공사 단계를 드러낸다.",
+      "camera": "35mm elevated oblique view",
+      "light": "daylight from camera-right through mild overcast",
+      "palette": "warm primer brown / pale limestone / muted blue",
+      "factual_anchors": [
+        "첫 층 조립 단계의 미완성 탑",
+        "완성 상부와 안테나를 넣지 않음"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "첫 층 조립 단계의 미완성 탑가 화면에서 판독되는지 확인",
+        "완성 상부와 안테나를 넣지 않음가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Reconstruct the Eiffel Tower construction site at the first-level assembly stage in 1887 from the supplied construction photograph. Show four lower iron legs rising separately from the Champ de Mars, each inclined inward, with the first-level girders still being joined. Timber temporary scaffolds occupy the work zone at the recorded scale. Keep the background Paris skyline low and subdued. The unfinished height ends at the source-verified construction stage, with neither a completed upper tower nor modern antennas. Leave a clear view across the central void and make the meeting height of the girders the dominant horizontal event. Camera: 35mm elevated oblique view. Light: daylight from camera-right through mild overcast. Palette: warm primer brown / pale limestone / muted blue.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.76,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.24,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c03",
+      "scene": "S02",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "다리 바닥의 큰 간격과 위쪽의 수렴을 한 시선에서 비교한다.",
+      "camera": "28mm high three-quarter view",
+      "light": "large soft key from upper-left",
+      "palette": "brown iron / sand-grey ground / neutral air",
+      "factual_anchors": [
+        "다리4개가 안쪽으로 기울어짐",
+        "지평선 및 실제 기울기 유지"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "다리4개가 안쪽으로 기울어짐가 화면에서 판독되는지 확인",
+        "지평선 및 실제 기울기 유지가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Present a clean architectural scale reconstruction of the four inclined lower legs, isolated against a softly lit Paris construction context. The viewer sees all four separate footing positions and the narrowing space between the legs as they rise. Keep the iron lattice members and their true curvature referenced to the construction drawing. The ground plane remains level. Use perspective to make separation at the bottom and convergence near first level readable in one glance, without exaggerating lean angles. A faint neutral first-level plane establishes the future connection height, while the central air remains genuinely empty. Camera: 28mm high three-quarter view. Light: large soft key from upper-left. Palette: brown iron / sand-grey ground / neutral air.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.23,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.77,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c04",
+      "scene": "S02",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "서로 다른 다리에서 온 두 들보의 지지 경로가 접합부를 향해 이어진다.",
+      "camera": "50mm oblique lens along girder axis",
+      "light": "raking sunlight from upper-right",
+      "palette": "warm brown iron / cream sky / soft shadows",
+      "factual_anchors": [
+        "각 들보가 다른 다리에 연결됨",
+        "두 부재의 지지 경로가 보임"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "각 들보가 다른 다리에 연결됨가 화면에서 판독되는지 확인",
+        "두 부재의 지지 경로가 보임가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Look diagonally along one first-level lattice girder toward its opposing member, with each girder clearly attached to a different inclined tower leg. The near girder enters from the lower-left foreground; the opposing one enters from upper-right in a distinct depth plane. Their mating region lies near the centre. Repeat real rivet and lattice patterns only where the supplied detail shows them. Keep both beams rigid, with a visible path back toward their respective supporting legs. The purpose is to reveal two separate origins converging at one junction, so avoid making the beams appear cantilevered from nowhere or already fused together. Camera: 50mm oblique lens along girder axis. Light: raking sunlight from upper-right. Palette: warm brown iron / cream sky / soft shadows.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.95,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.05,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c05",
+      "scene": "S02",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "첫 층 폐합 윤곽이 네 독립 다리를 하나의 구조로 묶을 위치를 드러낸다.",
+      "camera": "40mm downward oblique framing",
+      "light": "soft light from frame-left",
+      "palette": "brown iron / pale ochre earth / deep void",
+      "factual_anchors": [
+        "첫 층 연결이 네 다리를 묶음",
+        "분석 모형은 실사 사료로 오인시키지 않음"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "첫 층 연결이 네 다리를 묶음가 화면에서 판독되는지 확인",
+        "분석 모형은 실사 사료로 오인시키지 않음가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Render a shallow high-angle view of the unfinished first-level frame as a coherent structural model. The four inclined legs define four corner positions and the girders bridge between them to form a future closed perimeter. Hold one remaining alignment region visibly unfinished, so the frame is close to becoming continuous but is not shown as already complete. Place the true ground far below for height context, with the timber scaffolds lightly visible through the central opening. Use actual first-level proportions from the reference, not a generic square table or a four-legged modern truss. The central void gives the viewer an immediate reason for all four connections to matter. Camera: 40mm downward oblique framing. Light: soft light from frame-left. Palette: brown iron / pale ochre earth / deep void.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.41,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.59,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c06",
+      "scene": "S03",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "높이가 조금 다른 두 강체 단부를 같은 깊이에서 맞대어 비교한다.",
+      "camera": "85mm near-orthographic side view",
+      "light": "upper-left diffuse daylight with edge highlight",
+      "palette": "brown-black iron / pale sky",
+      "factual_anchors": [
+        "높이 차이는 조정 원리 도식",
+        "실측 간극이나 사고로 주장하지 않음"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "높이 차이는 조정 원리 도식가 화면에서 판독되는지 확인",
+        "실측 간극이나 사고로 주장하지 않음가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Show a deliberately simplified technical reconstruction of a first-level girder junction from the side. Two matching end faces sit at slightly different heights, separated by a modest open gap, so the alignment problem is unmistakable. Use the real plate thickness and riveted construction language from the historical detail. Keep the discrepancy small rather than portraying catastrophic displacement or buckled iron. Position both end faces at the same depth from the camera, allowing their upper surfaces to be compared without perspective trickery. Plain sky fills the opening between them, and the scaffold below remains visibly separate from the iron structure. Camera: 85mm near-orthographic side view. Light: upper-left diffuse daylight with edge highlight. Palette: brown-black iron / pale sky.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [
+        {
+          "id": "E4c",
+          "params": {
+            "spot": "the true upper level of the left girder end in the analytical side view"
+          },
+          "why": "정보 효과, 높이 비교를 위한 시험 후보. 정확한 선 고정과 실제 렌더 확인 필요."
+        }
+      ],
+      "edit_timing": {
+        "measured_narration_seconds": 3.42,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.58,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c07",
+      "scene": "S03",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "빛나는 틈이 눈을 끌고 주변의 거대한 금속은 고정된다.",
+      "camera": "135mm telephoto close-up",
+      "light": "backlight from high behind the gap, restrained fill from left",
+      "palette": "blue slit / warm dark iron",
+      "factual_anchors": [
+        "간극의 하늘이 다음 결말과 연결됨",
+        "금속은 녹아 흐르거나 파손되지 않음"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "간극의 하늘이 다음 결말과 연결됨가 화면에서 판독되는지 확인",
+        "금속은 녹아 흐르거나 파손되지 않음가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Compose a tighter view of the meeting faces, preserving their alignment discrepancy from the previous shot. The illuminated ribbon of sky between the iron ends now sits dead centre and occupies enough image area to read on a phone. The faces themselves stay dark, textured with period surface treatment and blunt plate edges rather than polished precision-machined modern steel. A few correct rivet heads on each side establish scale. Focus sharply on the two edge silhouettes, with the distant scaffold soft and unmistakably lower. The emotional action is the viewer being drawn to the bright space rather than to the heavy metal around it. Camera: 135mm telephoto close-up. Light: backlight from high behind the gap, restrained fill from left. Palette: blue slit / warm dark iron.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.42,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.58,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c08",
+      "scene": "S03",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "상상 속 망치 그림자가 지나가되 부재에는 접촉하지 않는다.",
+      "camera": "85mm fixed side view for the imagined choice",
+      "light": "low raking key from lower-left producing a soft conceptual shadow",
+      "palette": "iron brown / grey shadow / pale blue gap",
+      "factual_anchors": [
+        "망치는 시청자 가정",
+        "실제 타격 시공이나 사고를 창작하지 않음"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no physical hammer contact or impact.",
+      "qa": [
+        "망치는 시청자 가정가 화면에서 판독되는지 확인",
+        "실제 타격 시공이나 사고를 창작하지 않음가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Keep the same rigid girder ends from the previous technical shot, with the sky gap still open. A single soft hammer-shaped shadow enters only the peripheral lower foreground as an editorial representation of the viewer considering a direct tap. No hand, person or actual hammer touches the iron, and neither end deforms or jumps. The imagined shadow must be visually distinct from the reconstructed physical worksite, without inventing a historical construction incident. Let the beam faces remain the main focus and the shadow subordinate, so this is a question about where to act rather than a demonstration of a recorded method. Camera: 85mm fixed side view for the imagined choice. Light: low raking key from lower-left producing a soft conceptual shadow. Palette: iron brown / grey shadow / pale blue gap.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "editorial imagined hammer shadow, not the iron"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.39,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.61,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c09",
+      "scene": "S04",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "시선이 다리의 곡선을 따라 위 접합부에서 하부로 급히 내려간다.",
+      "camera": "24mm steep downward architectural view",
+      "light": "daylight from camera-right, footing zone readable in bounced light",
+      "palette": "warm iron / buff gravel / muted sky",
+      "factual_anchors": [
+        "상부 접합과 하부 조절 위치 연결",
+        "구조 전체가 휘어 변형되는 과장 금지"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "上 접합과 하부 조절 위치 연결가 화면에서 판독되는지 확인",
+        "구조 전체가 휘어 변형되는 과장 금지가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Frame a powerful downward view along one sweeping inclined lower tower leg, linking the first-level girder region high at the top edge with the footing zone deep below. The camera is close enough to the iron lattice to feel its huge rigid curvature while the ground expands toward the lower third. Use the same construction stage and actual leg silhouette as the supplied photograph. Temporary timber scaffolds remain in their own clear depth plane. The image redirects attention away from the upper junction toward the base; it must not show a fantastical continuous piston inside the whole leg or make the tower bend elastically. Camera: 24mm steep downward architectural view. Light: daylight from camera-right, footing zone readable in bounced light. Palette: warm iron / buff gravel / muted sky.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "tilt and track down along the leg toward the footing",
+        "end": "the footing zone becomes dominant"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.91,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.09,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c10",
+      "scene": "S04",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R3"
+      ],
+      "action": "잭의 압축 접촉을 단면으로 열어 조절 위치를 드러낸다.",
+      "camera": "65mm technical sectional view",
+      "light": "soft key from upper-left with warm interior fill",
+      "palette": "dark iron / stone grey / warm hydraulic metal",
+      "factual_anchors": [
+        "잭은 시공 중 임시 조절장치",
+        "부재-잭-기초 접촉이 끊기지 않음"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "잭은 시공 중 임시 조절장치가 화면에서 판독되는지 확인",
+        "부재-잭-기초 접촉이 끊기지 않음가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Build a source-led sectional teaching reconstruction of a temporary hydraulic alignment jack at the tower footing. Show a compact nineteenth-century hydraulic device bearing firmly against the intended iron shoe or support and its masonry or concrete support block. Cut only the foreground portion needed to expose the contact, while the principal leg and footing remain recognisable and solid. The load-carrying contact must be visibly closed, with no jack floating in air and no unsupported leg. Keep hoses, fittings and pump details restrained to what the supplied drawing actually supports. The surrounding ground and foundation establish why a tiny movement here can affect a high connection. Camera: 65mm technical sectional view. Light: soft key from upper-left with warm interior fill. Palette: dark iron / stone grey / warm hydraulic metal.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "a source-verified small hydraulic adjustment in the analytical inset"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [
+        {
+          "id": "layer.scan.5",
+          "params": {
+            "대상": "the foreground footing reconstruction only",
+            "시작": "the front edge",
+            "끝": "the exposed bearing contact"
+          },
+          "why": "단면 개방의 스틸 PASS 후보. 실제 잭 배치 참고자료가 먼저 필요."
+        }
+      ],
+      "edit_timing": {
+        "measured_narration_seconds": 3.35,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.65,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c11",
+      "scene": "S05",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R3"
+      ],
+      "action": "하부의 작은 조절과 상부의 위치 정렬을 대응시킨다.",
+      "camera": "50mm axonometric analytical view",
+      "light": "large soft source from upper-right",
+      "palette": "warm brown structure / cream field / restrained pale comparison",
+      "factual_anchors": [
+        "아래 조정과 위 정렬의 인과",
+        "구조부재 강체 위치 조정만 표현"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "아래 조정과 위 정렬의 인과가 화면에서 판독되는지 확인",
+        "구조부재 강체 위치 조정만 표현가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Show one coherent structural teaching model, with the tower foot enlarged in the lower-left and the corresponding first-level connection visible in the upper-right through a linked contextual view. The two regions belong to the same fixed geometry and keep a common vertical reference. At the foot, the compact temporary jack sits in full compression contact. Above, the paired girder ends show the matching direction of alignment correction. This is a visual explanation of a small controlled adjustment, not a claim of measured displacement. Keep any alternate position as a very restrained pale edge comparison and never duplicate the whole tower or make its iron members stretch. Camera: 50mm axonometric analytical view. Light: large soft source from upper-right. Palette: warm brown structure / cream field / restrained pale comparison.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "analytical position comparison graphic"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [
+        {
+          "id": "layer.xray.7",
+          "params": {
+            "대상": "the foreground analytical support casing only",
+            "내부 요소": "the source-verified jack contact and iron bearing"
+          },
+          "why": "지지 접촉을 보이는 스틸 PASS 후보, 프레임 내 위치 유지 검수 필요."
+        }
+      ],
+      "edit_timing": {
+        "measured_narration_seconds": 3.24,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.76,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c12",
+      "scene": "S05",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R3"
+      ],
+      "action": "비계 위 모래 받침과 기초 쪽 잭을 다른 위치에서 분리해 비교한다.",
+      "camera": "60mm near-orthographic comparative detail",
+      "light": "upper-left diffuse daylight",
+      "palette": "tan sand / warm timber / dark iron",
+      "factual_anchors": [
+        "모래 받침은 임시 비계 측",
+        "잭은 기초 조정 상세와 구분"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "모래 받침은 임시 비계 측가 화면에서 판독되는지 확인",
+        "잭은 기초 조정 상세와 구분가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Create an explicitly analytical view separating two temporary alignment aids in one spatially readable composition. On viewer-left, show the hydraulic jack associated with the tower footing in its supported contact position. On viewer-right, show a sandbox arrangement at the top or bearing zone of a temporary timber scaffold as verified by the construction reference. Keep these two locations distinct, with each device visibly touching the element it supports. The wooden scaffold must not become a fifth iron tower leg, and the sandbox must not be portrayed as a permanent foundation or a modern concrete pedestal. Fine sand and rough timber distinguish it from the metal hydraulic device. Camera: 60mm near-orthographic comparative detail. Light: upper-left diffuse daylight. Palette: tan sand / warm timber / dark iron.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [
+        {
+          "id": "layer.loadpath.10",
+          "params": {
+            "상부": "the temporarily supported girder",
+            "중간 부재": "the temporary timber scaffold supports",
+            "기초": "the scaffold bearing base"
+          },
+          "why": "모래 받침을 통과하는 임시 지지 경로를 보이는 observed 시험 후보. 영상 PASS로 간주하지 않음."
+        }
+      ],
+      "edit_timing": {
+        "measured_narration_seconds": 3.77,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.23,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c13",
+      "scene": "S06",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "판과 단부가 제 위치에 맞춰진 기계적 접합을 보여준다.",
+      "camera": "75mm three-quarter junction close-up",
+      "light": "warm daylight from upper-left",
+      "palette": "brown iron / golden edge highlights / subdued blue",
+      "factual_anchors": [
+        "접합 형상은 기록자료 의존",
+        "현대 용접부나 완벽한 매끈 금속 금지"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "접합 형상은 기록자료 의존가 화면에서 판독되는지 확인",
+        "현대 용접부나 완벽한 매끈 금속 금지가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Show a first-level girder joint at the moment its plates have reached the required mating position. Matching iron edges align cleanly, and real rivet holes or connection plates from the supplied construction detail establish how the parts belong together. Keep the interface visibly mechanical, not welded, melted or magically fused. A trace of open sky may remain outside the actual contact plane, allowing this shot to celebrate alignment without prematurely repeating the final gap-closing composition. The surrounding iron lattice remains rigid and continuous back to the supports. Historic timber staging appears only in the lower background and does not obscure the meeting faces. Camera: 75mm three-quarter junction close-up. Light: warm daylight from upper-left. Palette: brown iron / golden edge highlights / subdued blue.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c14",
+      "scene": "S07",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R3"
+      ],
+      "action": "임시 잭과 지지 접촉 상세를 열어 장치의 존치 여부를 묻는다.",
+      "camera": "85mm low sectional view",
+      "light": "soft cross-light from frame-right",
+      "palette": "stone grey / warm dark iron / amber recess",
+      "factual_anchors": [
+        "장치 존치 여부를 묻는 공사 단계",
+        "오늘의 탑이 잭 위라는 오해 방지"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "장치 존치 여부를 묻는 공사 단계가 화면에서 판독되는지 확인",
+        "오늘의 탑이 잭 위라는 오해 방지가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Return to the temporary footing adjustment detail through a new close sectional angle, not a modern tourist view. The temporary hydraulic jack remains visible in the construction-state version, nestled against its actual bearing surfaces. Beside that contact, leave enough clear space to anticipate the permanent bearing arrangement without drawing a second unsupported tower. Ground, footing and iron shoe remain in one believable scale relationship. A quiet empty recess or available working clearance carries the question of what remains when temporary adjustment equipment is removed. Do not imply that the tower has ever stood permanently on four active hydraulic pistons. Camera: 85mm low sectional view. Light: soft cross-light from frame-right. Palette: stone grey / warm dark iron / amber recess.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.49,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.51,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c15",
+      "scene": "S07",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R3"
+      ],
+      "action": "빈 잭 자리 대신 단단히 맞물린 쐐기 접촉을 드러낸다.",
+      "camera": "90mm intimate bearing detail",
+      "light": "daylight from upper-left grazing wedge contact",
+      "palette": "warm grey metal / brown iron / neutral stone",
+      "factual_anchors": [
+        "임시 장치 제거 후 쐐기 지지",
+        "빈 접촉부나 공중부양 금지"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "임시 장치 제거 후 쐐기 지지가 화면에서 판독되는지 확인",
+        "빈 접촉부나 공중부양 금지가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary editorial reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Present the completed bearing contact after the temporary alignment device has been replaced by permanent wedges, using the supplied source detail as the authority for the arrangement. Show the wedge forms seated firmly between the intended bearing surfaces, with the iron support and foundation meeting through a clear uninterrupted load path. The former jack can appear only as a separate removed construction object in the distant lower edge, never still carrying the leg. Emphasise the tight interfaces and gravity-stable seating. Avoid inventing modern adjustment screws, polished stainless pistons or unsupported gaps beneath the iron shoe. The wedges are the discovery, and the view should feel satisfyingly solid. Camera: 90mm intimate bearing detail. Light: daylight from upper-left grazing wedge contact. Palette: warm grey metal / brown iron / neutral stone.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "one restrained explanatory emphasis graphic, subject stays rigid"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "slow controlled lateral dolly keeping the focal contact centred",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.91,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.09,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c16",
+      "scene": "S08",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "첫 화면의 동일 시점에서 하늘 틈을 거의 닫힌 상태로 좁힌다.",
+      "camera": "same 100mm lens and orthogonal mating-plane angle as c01",
+      "light": "same upper-left edge daylight as c01",
+      "palette": "same charcoal iron / warm primer / blue slit",
+      "factual_anchors": [
+        "첫 화면과 동일한 카메라 잠금",
+        "간극 축소가 시점속임 아닌 정렬 결과"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "첫 화면과 동일한 카메라 잠금가 화면에서 판독되는지 확인",
+        "간극 축소가 시점속임 아닌 정렬 결과가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인",
+        "상부 접합부 간극의 전후는 실제 1887년 사진 그대로의 기록처럼 제시하지 않고 정렬 원리 분석 재현으로 구분한다."
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary analytical reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Recreate the exact camera geometry and framing of the opening image from the supplied first-level junction reference. The two enormous girder end faces occupy the left and right sides in the same scale, orientation and depth relationship. Their separation is now nearly closed through alignment, leaving only a very thin blue sliver at the centre. Keep the rivet pattern, surface marks and edge profile recognisably identical to the opening so the viewer knows this is its payoff. Do not alter the perspective to hide an unchanged gap. The correction is rigid positioning, not a transformation of the beams into a single melted object. Camera: same 100mm lens and orthogonal mating-plane angle as c01. Light: same upper-left edge daylight as c01. Palette: same charcoal iron / warm primer / blue slit.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "the source-verified rigid alignment position of the meeting faces"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "short straight push toward the joining seam, stopping before contact plane",
+        "end": "hold the source-verified focal relationship clearly visible"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.66,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.34,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c17",
+      "scene": "S08",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "하늘 한 줄이 사라지고 금속 단부 사이의 가는 접합선만 남는다.",
+      "camera": "same 100mm framing as c01 and c16",
+      "light": "same directional daylight, contact seam darker",
+      "palette": "iron brown-black / blue beyond interface",
+      "factual_anchors": [
+        "하늘이 사라지는 곳은 접촉선만",
+        "철이 녹아붙거나 합체되는 모핑 금지"
+      ],
+      "negative_prompt": "No faces or crowds, no lettering or dimensional numerals, no modern antenna or completed upper tower, no welding, no stainless cylinders, no bending lattice, no floating footing, no invented undocumented joint geometry, no extra legs; no unsupported connections.",
+      "qa": [
+        "하늘이 사라지는 곳은 접촉선만가 화면에서 판독되는지 확인",
+        "철이 녹아붙거나 합체되는 모핑 금지가 지켜지는지 확인",
+        "역사 복원/분석 도식 표시와 참고자료 대응을 확인",
+        "상부 접합부 간극의 전후는 실제 1887년 사진 그대로의 기록처럼 제시하지 않고 정렬 원리 분석 재현으로 구분한다."
+      ],
+      "image_prompt_en": "Vertical 9:16 documentary analytical reconstruction, centred focal event and clean top and bottom caption safe zones. Match the supplied source reference before adding detail. No faces, readable lettering, captions, logos, watermarks or fake inscriptions. Preserve rigid iron geometry and source-verified proportions. Use the opening composition once more, now at the completed alignment state. The two mating iron faces meet on the central line, and the blue sliver that attracted attention at the beginning has disappeared at that interface. Preserve a fine believable seam, visible plate thickness and individual rivet construction; the members remain distinguishable solid objects despite being correctly joined. The surrounding sky stays blue beyond the structure, proving that only the local slit has closed rather than the whole environment becoming dark. No extra diagram, victory text or human reaction enters. Let the heavy, quiet contact line carry the resolution by itself. Camera: same 100mm framing as c01 and c16. Light: same directional daylight, contact seam darker. Palette: iron brown-black / blue beyond interface.",
+      "variant_b_delta": "Keep all geometry, action, construction stage and scale unchanged. Shift the camera only eight degrees around the same focal point and soften the same key light; do not change the side of the load or support.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "the source-verified rigid alignment position of the meeting faces"
+        ],
+        "static": [
+          "all other iron members",
+          "foundation",
+          "timber scaffold",
+          "background"
+        ],
+        "camera": "short straight push toward the joining seam, stopping before contact plane",
+        "end": "the sky slit is closed locally and the fine contact seam remains"
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.86,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.14,
+        "overflow_seconds": 0
+      }
+    }
+  ]
+}

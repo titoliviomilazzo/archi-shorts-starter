@@ -1,0 +1,1040 @@
+{
+  "episode": "s15-istanbul-ayasofya",
+  "script_review": {
+    "changes": [
+      "독립 재검수 후 c01을 source_edit로 통일하고 c01/c17/c18의 동일 HAGIA_MASTER_A 원본·크롭을 명시했다. 낭독문은 유지했다."
+    ],
+    "remaining": [
+      "낭독 변경 없음.",
+      "현존 내부 사진과 평단면을 고정해야 한다.",
+      "c18 펼쳐짐은 인식적 드러남으로 처리하며 곡면이 물리적으로 펼쳐지는 애니메이션을 금지한다."
+    ],
+    "verdict": "SCRIPT_RETAINED_PREPRODUCTION_DRAFT"
+  },
+  "visual_bible": {
+    "format": "9:16, 각 소스 4초 기준, 실제 최종 컷 길이는 script.md 시험 낭독 구간을 따라 편집",
+    "story": "원형천장→사각배치→탁상 빈귀퉁이→빈틈이 받침→곡면 접점→네면 전체→그림없는 실물발견",
+    "style": "자료를 고정점으로 삼는 영화적 건축 투시. 한 컷 한 초점, 인접컷 거리·높이·재질 대비. 실제사진은 재구성으로 위조하지 않는다.",
+    "text_policy": "사료 원본에 이미 있는 글자는 원본편집으로 보존한다. 새로운 제목·치수·출처글자는 후반 편집. 생성영역에 가문명·서예·치수를 새로 쓰지 않는다.",
+    "approval_state": "프롬프트와 설계 초안. 실제 스틸·방향선정·유료생성 승인 상태 아님.",
+    "effect_state": "모든 컷의 의미에 맞는 DB효과 쌍과 순환 규칙은 다음 선택 단계에서 확정. 부적합 DB효과로 개수만 채우지 않았다.",
+    "source_anchor": "c01/c17/c18은 동일 HAGIA_MASTER_A 인증 원본·같은 정규화 크롭. 사진에는 네 펜덴티브와 기둥 맥락이 함께 있어야 하며 원본획득 전 모두 BLOCKED_REFERENCE_IMAGE."
+  },
+  "reference_requirements": [
+    {
+      "id": "H1",
+      "url": "https://projects.mcah.columbia.edu/medieval-architecture/htm/or/ma_or_discuss_hs_dome.htm",
+      "needed": "대기둥 네 개·네 아치·구면삼각의 평면과 단면",
+      "rights_status": "사진 재사용 권리 미확인"
+    },
+    {
+      "id": "H2",
+      "url": "https://projects.mcah.columbia.edu/courses/medmil/pages/non-mma-pages/text_links/hagiasophtext",
+      "needed": "대응되는 현존 내부 사진과 상부·하부 코너 접점",
+      "rights_status": "사진 재사용 권리 미확인"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "cuts": [
+        "c01",
+        "c02",
+        "c03"
+      ],
+      "purpose": "원형 천장에 시선 고정",
+      "location": "아야 소피아 중앙 내부",
+      "era": "참조 사진의 현존 상태",
+      "reveal": "아직 아래 네모와 연결 해법은 감춤",
+      "transition": "넓은 천장→원호→아치로 아래쪽 시선"
+    },
+    {
+      "id": "S02",
+      "cuts": [
+        "c04",
+        "c05",
+        "c06"
+      ],
+      "purpose": "네모·원 문제를 손에 잡히는 모형으로 전환",
+      "location": "사각 코어 모델→탁상 비유",
+      "era": "현대 설명 모델",
+      "reveal": "원 밖에 남은 귀퉁이",
+      "transition": "네 기둥 평면을 탁상 네모로 매치"
+    },
+    {
+      "id": "S03",
+      "cuts": [
+        "c07",
+        "c08"
+      ],
+      "purpose": "실제 건물로 돌아와 빈틈의 무게 문제 제기",
+      "location": "현존 내부 다른 시점→부분 절개 모델",
+      "era": "현존 상태/현대 설명 모델",
+      "reveal": "빈 것 같은 자리에 실제 무게가 걸림",
+      "transition": "전경에서 코너 접점으로 빠른 시선 하강"
+    },
+    {
+      "id": "S04",
+      "cuts": [
+        "c09",
+        "c10"
+      ],
+      "purpose": "빈틈이 받침으로 바뀌는 핵심 반전",
+      "location": "한 코너 곡면 모델→실제 곡면",
+      "era": "현대 설명 모델/현존 상태",
+      "reveal": "삼각 곡면의 지지 기능",
+      "transition": "색을 빌린 분석 모델에서 실물 곡률로 전환"
+    },
+    {
+      "id": "S05",
+      "cuts": [
+        "c11",
+        "c12",
+        "c13"
+      ],
+      "purpose": "아래 꼭짓점·위 원호·비유 대응을 단계적으로 이해",
+      "location": "코너 절개 접사→탁상 대응 모델",
+      "era": "현대 설명 모델",
+      "reveal": "삼각면은 평판이 아닌 곡면",
+      "transition": "하부 접점→상부 원호→정렬된 비유"
+    },
+    {
+      "id": "S06",
+      "cuts": [
+        "c14",
+        "c15",
+        "c16"
+      ],
+      "purpose": "네 곡면 전체와 하중 경로",
+      "location": "사각 코어 해부 모델",
+      "era": "현대 설명 모델",
+      "reveal": "네 면의 위쪽이 원을 완성하며 아치와 대기둥에 전달",
+      "transition": "코너 네 장→원형 윗변→한 사분면 하중"
+    },
+    {
+      "id": "S07",
+      "cuts": [
+        "c17",
+        "c18"
+      ],
+      "purpose": "윤곽선 없이 실제 천장에서 스스로 발견",
+      "location": "첫 천장 구도의 인증 사진",
+      "era": "참조 사진의 현존 상태",
+      "reveal": "같은 원 안에 네 곡면을 알아봄",
+      "transition": "설명 모델의 그래픽을 제거하고 실제 첫 구도 유지"
+    }
+  ],
+  "shots": [
+    {
+      "id": "c01",
+      "scene": "S01",
+      "narration": "아야 소피아, 네모 위에 동그라미라니요?",
+      "timing": "0.00–2.63",
+      "asset_type": "source_edit",
+      "reference_ids": [
+        "H2",
+        "H1"
+      ],
+      "action": "금빛 돔 전경 위에 네모 외곽이 생기다 상단 윤곽에서 끊긴다.",
+      "camera": "HAGIA_MASTER_A 인증 원본의 고정 크롭·광학·시점을 보존한다. c17/c18과 같은 정규화크롭 사용",
+      "light": "HAGIA_MASTER_A 원본 광원·그림자·노출을 보존하고 합성 재조명 금지",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "실제 현존 곡면은 처음부터 존재한다",
+        "사각 기둥배치와 원형 돔 기반을 혼동하지 않는다",
+        "도입과 c17/c18은 같은 HAGIA_MASTER_A 원본·정규화 크롭으로 연결한다."
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "실제 현존 곡면은 처음부터 존재한다인지 참조와 대조",
+        "사각 기둥배치와 원형 돔 기반을 혼동하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 원형 천장에 시선 고정의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 source-preserving evidence edit of one authenticated Hagia Sophia interior photograph, designated HAGIA_MASTER_A. Select a source whose fixed crop contains the circular dome base, all four pendentive zones and sufficient pier context to understand the square below. The source itself supplies the camera perspective, lens appearance, existing light direction, mosaics and masonry proportions. Use exactly this source and normalized crop again for c17 and c18; no opening-only generated viewpoint is allowed. Let the luminous circular base attract attention first through its authentic contrast, without digitally erasing, darkening or blurring any corner surface. Preserve the image pixels, architectural geometry and historic ornament. Only a source-preserving crop and restrained global exposure adjustment are permitted. Do not synthesize a lamp, a new lens, missing masonry, living human faces, lettering or a watermark. Exact source acquisition and derivative rights are pending.",
+      "variant_b_delta": "A/B는 같은 인증 원본의 고정 시점과 원래 빛을 유지한다. B는 더 넓은 크롭만 비교하며, 선택된 크롭을 c01/c17/c18 모두 동일하게 적용한다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "원본 위 2D 편집 프레이밍"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "HAGIA_MASTER_A 원본 위 2D 프레이밍만 허용, 동일 콜백 크롭을 유지",
+        "end": "다음 컷 c02의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "BLOCKED_REFERENCE_IMAGE",
+      "edit_timing": {
+        "measured_narration_seconds": 2.63,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.37,
+        "overflow_seconds": 0
+      },
+      "source_frame_group": "HAGIA_MASTER_A"
+    },
+    {
+      "id": "c02",
+      "scene": "S01",
+      "narration": "이 천장의 둥근 테두리를 눈으로 한 바퀴 돌아보세요.",
+      "timing": "2.63–5.87",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "카메라 고정, 돔 아래 원형 테두리 위로 작은 빛 한 점이 돈다.",
+      "camera": "32mm 원호접사, ring을 따라 짧은 pan",
+      "light": " Natural light from upper-right windows outlines the ring while lower masonry stays warm and shaded.  Freeze a precise viewpoint that could later host a moving light cue; do not add glowing symbols or a second concentric structural ring.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "돔 밑 원호와 창열은 참조와 일치한다",
+        "새 구조 링을 임의 추가하지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "돔 밑 원호와 창열은 참조와 일치한다인지 참조와 대조",
+        "새 구조 링을 임의 추가하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 원형 천장에 시선 고정의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. A closer upward view follows one real arc of the dome-base circular ring, with the window line providing the viewer a scale anchor. Camera is tilted up with a 32 mm lens feel, ring centred and its curve disappearing beyond both side edges. Natural light from upper-right windows outlines the ring while lower masonry stays warm and shaded. Use the same reference-defined radius and window rhythm as the opening. Freeze a precise viewpoint that could later host a moving light cue; do not add glowing symbols or a second concentric structural ring. Stone thickness must remain visible rather than paper-thin. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "32mm 원호접사, ring을 따라 짧은 pan",
+        "end": "다음 컷 c03의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.24,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.76,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c03",
+      "scene": "S01",
+      "narration": "걸리는 데가 하나도 없죠. 그런데 바로 아래에는",
+      "timing": "5.87–9.33",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "빛이 출발점에 도착하고 시선은 수직 아래로 떨어진다.",
+      "camera": "28mm 대각올려다보기, arch로 tilt-down",
+      "light": " Daylight comes from upper-left clerestory openings and fades down the arch intrados.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "아치와 원호는 연속 구조다",
+        "빈 것처럼 보인다고 실제 구멍을 만들지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "아치와 원호는 연속 구조다인지 참조와 대조",
+        "빈 것처럼 보인다고 실제 구멍을 만들지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 원형 천장에 시선 고정의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. Frame the junction between the circular base above and a massive arch descending below it. Use a steep upward 28 mm view from just off the central axis, giving the ring upper-left and the arch leg lower-right. Daylight comes from upper-left clerestory openings and fades down the arch intrados. This composition takes the eye below the perfect circle without yet diagramming the solution. Preserve actual masonry continuity and perspective. Do not cut a literal gap through a pendentive or replace the corner with open sky; the supposed emptiness is an initial reading of the form, not a real loss of material. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "28mm 대각올려다보기, arch로 tilt-down",
+        "end": "다음 컷 c04의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.46,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.54,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c04",
+      "scene": "S02",
+      "narration": "커다란 기둥 넷이 네모의 꼭짓점처럼 서 있습니다.",
+      "timing": "9.33–12.41",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "네 기둥 머리를 연결한 네모가 평면에 놓인다.",
+      "camera": "50mm 코어모델45도, 네모평면으로 orbit",
+      "light": " Use a 50 mm elevated view, clean section faces and warm upper-right studio light.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "중앙 코어의 대기둥은 네 개다",
+        "모델은 건물 전체가 완전한 정육면체라는 뜻이 아니다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "중앙 코어의 대기둥은 네 개다인지 참조와 대조",
+        "모델은 건물 전체가 완전한 정육면체라는 뜻이 아니다인지 확인",
+        "이 컷 하나만 무음으로 보아도 네모·원 문제를 손에 잡히는 모형으로 전환의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. A cutaway teaching model of Hagia Sophia isolates the four great piers and four arches around the central square, while the surrounding building remains as a low contextual shell. Use a 50 mm elevated view, clean section faces and warm upper-right studio light. Put all four pier heads at the corresponding corner positions of a single square footprint, with no central column. Keep the actual unequal building masses outside this simplified core rather than forcing the entire church into a cube. This still explains the support layout only; it must not suggest that four narrow freestanding poles directly carry the dome. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "50mm 코어모델45도, 네모평면으로 orbit",
+        "end": "다음 컷 c05의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.08,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.92,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c05",
+      "scene": "S02",
+      "narration": "네모 안에 꼭 맞게 동전을 하나 놓으면 어떻게 될까요?",
+      "timing": "12.41–15.65",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "원형 동전이 네모 안에 수평으로 놓인다.",
+      "camera": "70mm 탁상65도, 원의 접점으로 push-in",
+      "light": " Camera looks down at a 65-degree angle with a 70 mm lens feel, retaining slight depth so both objects look solid.  Upper-left studio light produces one soft disc shadow and a narrow highlight on its rim.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "비유 원은 네모 변 중점에 접한다",
+        "탁상 동전은 고대 시공 실험 실물로 주장하지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "비유 원은 네모 변 중점에 접한다인지 참조와 대조",
+        "탁상 동전은 고대 시공 실험 실물로 주장하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 네모·원 문제를 손에 잡히는 모형으로 전환의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. On a dark tabletop, a plain circular brass disc lies exactly inscribed within a square pale stone frame. Camera looks down at a 65-degree angle with a 70 mm lens feel, retaining slight depth so both objects look solid. Upper-left studio light produces one soft disc shadow and a narrow highlight on its rim. The circle touches the midpoint of each square side; the four corner spaces remain outside the disc. Keep the disc anonymous, without a currency portrait or text. This is a physical analogy for the geometric problem, not an object claimed to have been used by the original builders. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "70mm 탁상65도, 원의 접점으로 push-in",
+        "end": "다음 컷 c06의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.24,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.76,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c06",
+      "scene": "S02",
+      "narration": "동전이 아무리 커도 네 귀퉁이는 그대로 남죠.",
+      "timing": "15.65–18.36",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "동전 밖 네 귀퉁이만 색이 남는다.",
+      "camera": "90mm 탁상접사, 빈 귀퉁이로 slide",
+      "light": " Warm light from upper-right keeps both boundaries sharp and the other corners softly present at the frame edges.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "네 귀퉁이는 원 밖에 남는다",
+        "이 비유는 실제 건축의 결손을 뜻하지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "네 귀퉁이는 원 밖에 남는다인지 참조와 대조",
+        "이 비유는 실제 건축의 결손을 뜻하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 네모·원 문제를 손에 잡히는 모형으로 전환의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. Move closer to the same tabletop square and disc, this time cropping to one triangular corner space while retaining enough of the circle to see its tangency. A 90 mm macro lens feel, camera nearly overhead, reveals a real empty tabletop patch between the square corner and round disc. Warm light from upper-right keeps both boundaries sharp and the other corners softly present at the frame edges. Do not fill the patch or add a freestanding triangle yet. The disc and square keep identical dimensions and positions to the prior still; no resizing trick should make the geometry seem solved. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "90mm 탁상접사, 빈 귀퉁이로 slide",
+        "end": "다음 컷 c07의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 2.71,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.29,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c07",
+      "scene": "S03",
+      "narration": "여기도 아래에서 올려다보면 둥근 돔만 보입니다.",
+      "timing": "18.36–21.26",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "돔을 바로 아래에서 올려다본 구도로 돌아온다.",
+      "camera": "24mm 중앙에서 살짝비킨 올려다보기, 코너로 pan",
+      "light": "Return to a new, slightly off-centre upward viewpoint inside the real Hagia Sophia rather than reusing the initial camera position.  Natural light from high viewer-left windows creates bright ring edges and lower shadow.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "실제 곡면을 지우지 않는다",
+        "내려다보는 모델과 올려다보는 실경을 구분한다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "실제 곡면을 지우지 않는다인지 참조와 대조",
+        "내려다보는 모델과 올려다보는 실경을 구분한다인지 확인",
+        "이 컷 하나만 무음으로 보아도 실제 건물로 돌아와 빈틈의 무게 문제 제기의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. Return to a new, slightly off-centre upward viewpoint inside the real Hagia Sophia rather than reusing the initial camera position. A 24 mm rectilinear lens shows the dome ring as the dominant luminous shape, while the pendentive corners blend into the surrounding gold-toned surfaces. Natural light from high viewer-left windows creates bright ring edges and lower shadow. Keep every corner surface physically present. The selective framing explains why a casual visitor notices the circle first; no architectural feature is erased or hidden by artificial fog. Freeze the instant before the camera would lower toward a corner. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "24mm 중앙에서 살짝비킨 올려다보기, 코너로 pan",
+        "end": "다음 컷 c08의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 2.9,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.1,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c08",
+      "scene": "S03",
+      "narration": "저 빈 귀퉁이에 돔의 무게가 실리면 어떻게 될까요?",
+      "timing": "21.26–24.63",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "상부 무게와 아래 기둥머리만 보이고 연결 해법 전체는 아직 크롭 밖에 둔다",
+      "camera": "50mm 급한 올려다보기, 상부 돔기반 무게와 아래 기둥머리만 프레이밍; 연결곡면 전체는 크롭 밖 유지",
+      "light": "High viewer-right sidelight makes the upper masonry mass legible while preserving reference-matched shadows.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "곡면은 평판 받침이 아니다",
+        "인접 아치·대기둥과 접한다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "곡면은 평판 받침이 아니다인지 참조와 대조",
+        "인접 아치·대기둥과 접한다인지 확인",
+        "이 컷 하나만 무음으로 보아도 실제 건물로 돌아와 빈틈의 무게 문제 제기의 한 단서가 읽히는지 확인",
+        "c09 전에는 전체 곡면 접촉경로가 읽히지 않으며, 실제구멍·삭제로 그 해법을 감추지 않았는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, reference-matched scale, one clear focal question and a modest lower subtitle safe zone. Frame a tight view inside Hagia Sophia so the substantial circular dome-base mass occupies the upper portion and one massive pier head is visible at the lower edge. The camera looks steeply upward with a 50 mm lens feel; high viewer-right sidelight makes the upper masonry weight legible. Deliberately leave most of the intervening corner transition beyond the crop, preserving every real wall and arch outside the frame. This composition asks where the weight goes without yet revealing the full curved contact path explained in the next cut. Do not cut an actual hole, remove a pendentive, add a falling block or invent a crack. All masonry remains intact and stationary. No invented lettering, living human face or watermark.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "50mm 급한 올려다보기, 상부 돔기반 무게와 아래 기둥머리만 프레이밍; 연결곡면 전체는 크롭 밖 유지",
+        "end": "다음 컷 c09의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.37,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.63,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c09",
+      "scene": "S04",
+      "narration": "빈틈인 줄 알았던 그 자리가, 이 거대한 돔을 받치고 있습니다.",
+      "timing": "24.63–28.58",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "동전 비유에서 빈 곳처럼 보였던 네 귀퉁이를 실제 곡면과 대응한다. 그 면이 돔에서 아치와 기둥으로 하중을 넘기는 연속 경로를 따라 빛난다.",
+      "camera": "45mm 내부모델 고각, 코너를 따라 reveal orbit",
+      "light": " Use a 45 mm elevated interior view, upper-left light grazing the compound curvature.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "네모-원 전환은 구면삼각 곡면으로 이뤄진다",
+        "곡면 하부와 양측·상부 연결을 연속으로 고정한다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "네모-원 전환은 구면삼각 곡면으로 이뤄진다인지 참조와 대조",
+        "곡면 하부와 양측·상부 연결을 연속으로 고정한다인지 확인",
+        "이 컷 하나만 무음으로 보아도 빈틈이 받침으로 바뀌는 핵심 반전의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. Reveal one intact pendentive as a solid spherical triangular surface between two great arches, joining a corner pier below to the circular dome-base arc above. The surrounding shell is cleanly sectioned, with the selected curved masonry in warm gold and adjacent members muted pale stone. Use a 45 mm elevated interior view, upper-left light grazing the compound curvature. Keep all contacts intact: the lower corner meets the pier zone, the sides meet the arches and the upper boundary follows the circular base. This is a still of the revealed support path, not a triangle magically changing shape or a detached wing. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "45mm 내부모델 고각, 코너를 따라 reveal orbit",
+        "end": "다음 컷 c10의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.95,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.05,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c10",
+      "scene": "S04",
+      "narration": "두 아치 사이로 금빛 삼각형 하나가 휘어져 있죠.",
+      "timing": "28.58–31.67",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "아치 사이의 실제 삼각 곡면 하나만 금빛으로 드러난다.",
+      "camera": "50mm 코너저각, 곡률이 읽히는 lateral slide",
+      "light": " Warm reflected gold comes from high left daylight, with soft shadow along the intrados edges.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "상변은 원호다",
+        "모자이크 세부는 실제사진 확보 전 창작하지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "상변은 원호다인지 참조와 대조",
+        "모자이크 세부는 실제사진 확보 전 창작하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 빈틈이 받침으로 바뀌는 핵심 반전의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. Photoreal close architectural view of one authentic pendentive between its two bounding arches, using a reference-matched interior surface. Camera is low and tilted upward with a 50 mm lens feel so the triangular outline and inward-curving surface are both apparent. Warm reflected gold comes from high left daylight, with soft shadow along the intrados edges. Keep the upper boundary curved rather than straight, and preserve the full thickness where the surface joins the arch system. Do not invent a flat gold panel, an ornamental pennant or a floating triangular insert. Existing mosaic details must follow the acquired photograph. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "50mm 코너저각, 곡률이 읽히는 lateral slide",
+        "end": "다음 컷 c11의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.09,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.91,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c11",
+      "scene": "S05",
+      "narration": "뾰족한 끝은 아래로 내려와 기둥 머리에 닿고,",
+      "timing": "31.67–34.43",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "한 삼각형 아래 꼭짓점과 기둥 머리가 한 프레임에 잡힌다.",
+      "camera": "75mm 기둥머리높이, 접합면으로 push-in",
+      "light": " Use a 75 mm lens feel, camera level with the pier head and looking slightly upward.  Upper-right grazing light catches the raw masonry thickness at the cut face, while the intact outer surface remains warm and smooth.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "아래 꼭짓점 영역은 대기둥·아치 접합부와 통한다",
+        "가느다란 핀 위에 얹힌 지지로 표현하지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "아래 꼭짓점 영역은 대기둥·아치 접합부와 통한다인지 참조와 대조",
+        "가느다란 핀 위에 얹힌 지지로 표현하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 아래 꼭짓점·위 원호·비유 대응을 단계적으로 이해의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. A close section through the bottom of one pendentive shows its narrowing lower portion merging into the massive pier-and-arch junction. Use a 75 mm lens feel, camera level with the pier head and looking slightly upward. Upper-right grazing light catches the raw masonry thickness at the cut face, while the intact outer surface remains warm and smooth. Make the load-bearing junction continuous, broad and physically credible; the lower vertex is not a needle balanced on a tiny column capital. Keep the dome base outside the crop except for a faint contextual arc, focusing only on how the curved corner meets support below. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "75mm 기둥머리높이, 접합면으로 push-in",
+        "end": "다음 컷 c12의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 2.76,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.24,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c12",
+      "scene": "S05",
+      "narration": "위로 갈수록 부채처럼 넓어져 둥근 테두리를 만납니다.",
+      "timing": "34.43–37.75",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "같은 면의 윗변이 돔 밑 원호로 이어진다.",
+      "camera": "65mm 위쪽올려다보기, 상부 원호로 tilt-up",
+      "light": " Use a 65 mm lens feel and daylight from high viewer-left, creating a long gentle highlight over the concave masonry.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "상변은 돔 받침 원호로 연결된다",
+        "면은 안쪽으로 휘어진 곡률을 가진다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "상변은 돔 받침 원호로 연결된다인지 참조와 대조",
+        "면은 안쪽으로 휘어진 곡률을 가진다인지 확인",
+        "이 컷 하나만 무음으로 보아도 아래 꼭짓점·위 원호·비유 대응을 단계적으로 이해의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. A complementary close view looks upward along the same pendentive toward its broad curved upper edge at the dome base. Use a 65 mm lens feel and daylight from high viewer-left, creating a long gentle highlight over the concave masonry. The upper boundary is a true circular arc continuous with its neighbours; the two side boundaries remain aligned with the adjacent arch curves. Show sufficient wall thickness at a small section edge to reject the impression of a thin decorative membrane. Do not flatten the curved triangle or enlarge the dome ring relative to the preceding teaching model. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "65mm 위쪽올려다보기, 상부 원호로 tilt-up",
+        "end": "다음 컷 c13의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.32,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.68,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c13",
+      "scene": "S05",
+      "narration": "아까 비어 보였던 귀퉁이가 바로 이 삼각형이에요.",
+      "timing": "37.75–40.83",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "동전 도형의 빈 귀퉁이와 건축물의 곡면이 대응한다.",
+      "camera": "50mm 탁상45도, 기하대응을 따라 track",
+      "light": " Camera is 45 degrees above the table with a 50 mm lens feel and light from upper-right.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "탁상과 건물모델은 기하 비유다",
+        "동전을 건축물로 물리적으로 변형하지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "탁상과 건물모델은 기하 비유다인지 참조와 대조",
+        "동전을 건축물로 물리적으로 변형하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 아래 꼭짓점·위 원호·비유 대응을 단계적으로 이해의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. A paired spatial analogy is staged as one coherent tabletop model rather than a divided graphic. In the foreground, the square frame and round disc expose one corner space; directly behind it, a matching-scale architectural corner model rises from that same corner position into a pendentive. Camera is 45 degrees above the table with a 50 mm lens feel and light from upper-right. The square footprint stays fixed while the three-dimensional corner surface becomes visible above it. Do not morph the coin into a building or imply a literal thin triangular plate supports the dome. Use physical depth and alignment to make the correspondence clear. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "50mm 탁상45도, 기하대응을 따라 track",
+        "end": "다음 컷 c14의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.08,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.92,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c14",
+      "scene": "S06",
+      "narration": "옆 기둥에도 하나, 건너편 두 기둥 위에도 하나씩.",
+      "timing": "40.83–44.08",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "나머지 세 곡면을 차례로 비춘다.",
+      "camera": "40mm 모델고각, 네 코너를 짧게 orbit",
+      "light": " A 40 mm lens feel and upper-left key light reveal the repeated spherical curvature without hiding the back pair.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "주요 전환 곡면은 네 장이다",
+        "중앙의 다섯째 삼각면을 추가하지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "주요 전환 곡면은 네 장이다인지 참조와 대조",
+        "중앙의 다섯째 삼각면을 추가하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 네 곡면 전체와 하중 경로의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. Elevated three-quarter teaching view of the four corner pendentives arranged around the central square. The near-left one is softly emphasized while the other three remain equally legible and fully present; their lower junctions align with the four pier locations. A 40 mm lens feel and upper-left key light reveal the repeated spherical curvature without hiding the back pair. Keep exactly four corner transition surfaces, no extra fifth triangle at the centre and no eight-petal flower. The surrounding arches remain as stable boundaries, not detached bands. Freeze one overview that supports sequential editorial emphasis in the later video. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "40mm 모델고각, 네 코너를 짧게 orbit",
+        "end": "다음 컷 c15의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.25,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.75,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c15",
+      "scene": "S06",
+      "narration": "네 장의 굽은 면이 만나 돔이 앉을 둥근 자리를 만듭니다.",
+      "timing": "44.08–47.50",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "네 곡면의 윗변이 돔 발치의 원을 완성한다.",
+      "camera": "85mm 준정투영상부, 원형테두리로 pull-up",
+      "light": "A broad upper-right softbox lights the analytical model, revealing the circular upper boundary and preserving shaded depth below.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "네 곡면 상변이 원형 기반을 만든다",
+        "중앙에 새 기둥이나 사각 평판을 넣지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "네 곡면 상변이 원형 기반을 만든다인지 참조와 대조",
+        "중앙에 새 기둥이나 사각 평판을 넣지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 네 곡면 전체와 하중 경로의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. Near-orthographic view from above the central model reveals how the four pendentives together terminate at a continuous circular base for the dome. The square pier layout remains visible below through a clearly declared cutaway, and a short upper dome segment establishes where the ring carries the shell. Use an 85 mm lens feel, minimal perspective distortion and a broad upper-right softbox. Warm masonry and dark voids separate the solid surfaces from the interior air. Do not fill the whole square with a flat slab, add a central compression pillar or make the four curved surfaces overlap one another. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "85mm 준정투영상부, 원형테두리로 pull-up",
+        "end": "다음 컷 c16의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 3.42,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.58,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c16",
+      "scene": "S06",
+      "narration": "아치와 기둥이 그 무게를 받아 아래로 넘겨줍니다.",
+      "timing": "47.50–50.29",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "H1"
+      ],
+      "action": "한 장만 남겨 곡률을 조명하고 명칭은 후반 자막으로 고정한다.",
+      "camera": "55mm 사분면중간높이, 연속하중경로 따라 tilt-down",
+      "light": " Camera at mid-height uses a 55 mm lens feel; high-left sidelight exposes the raw cut face and joins.  A restrained warm highlight may follow only real load-carrying masonry, leaving the empty interior dark.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "하중 경로는 실제 이어진 석조를 따른다",
+        "정량 구조해석 결과로 주장하지 않는다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "하중 경로는 실제 이어진 석조를 따른다인지 참조와 대조",
+        "정량 구조해석 결과로 주장하지 않는다인지 확인",
+        "이 컷 하나만 무음으로 보아도 네 곡면 전체와 하중 경로의 한 단서가 읽히는지 확인"
+      ],
+      "image_prompt_en": "Vertical 9:16 cinematic architectural evidence still, one centred focal action, reference-matched materials and scale, clean lower subtitle safe zone. Freeze one decisive instant; architecture remains solid and undistorted. One-quarter sectional model shows an unbroken structural sequence from the dome base at top through the curved corner and bounding arches to a great pier below. Camera at mid-height uses a 55 mm lens feel; high-left sidelight exposes the raw cut face and joins. A restrained warm highlight may follow only real load-carrying masonry, leaving the empty interior dark. The piers and arches remain massive and fixed. Do not draw a single unsupported vertical force line through empty air, animate masonry flexing, or present the simplified model as a quantitative engineering analysis. The image explains the load transfer relationship without claiming a numerical distribution. No invented text, labels, living human faces or watermark. Use authenticated source material for evidence; clearly identify reconstructed or analytical imagery.",
+      "variant_b_delta": "B는 A의 물체·비례·접촉을 고정하고 카메라를 옆으로 약 15도 이동하거나 key light를 반대 상부로 옮긴다. 두 변화는 함께 적용하지 않는다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "검증 전 해설 그래픽의 단계적 밝기 변화"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "55mm 사분면중간높이, 연속하중경로 따라 tilt-down",
+        "end": "다음 컷 c17의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "기존 DB의 한국도로·DDP·콜로세움 한정 문구를 억지로 전용하지 않는다. 이 컷에 맞는 물리환경+정보효과 2개와 다양성 검증은 아직 필요하다.",
+      "readiness": "DRAFT_REQUIRES_REFERENCE_MATCH",
+      "edit_timing": {
+        "measured_narration_seconds": 2.79,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.21,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c17",
+      "scene": "S07",
+      "narration": "아까는 둥근 테두리만 눈에 들어왔는데 말이죠.",
+      "timing": "50.29–53.09",
+      "asset_type": "source_edit",
+      "reference_ids": [
+        "H2"
+      ],
+      "action": "윤곽선과 보조 색을 지우고 실제 천장의 색으로 복귀한다.",
+      "camera": "인증 원본 사진의 시점·렌즈·수직선 보존, 마지막 회수는 동일 원본 크롭으로 편집",
+      "light": "Preserve the source photograph’s actual light direction, shadow structure and exposure; no synthetic relighting.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "실제 사진의 장식과 형태를 보존한다",
+        "설명선을 제거하는 편집을 구조 파괴처럼 보이지 않게 한다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "실제 사진의 장식과 형태를 보존한다인지 참조와 대조",
+        "설명선을 제거하는 편집을 구조 파괴처럼 보이지 않게 한다인지 확인",
+        "이 컷 하나만 무음으로 보아도 윤곽선 없이 실제 천장에서 스스로 발견의 한 단서가 읽히는지 확인",
+        "원본 시점·빛·천장곡률을 보존하며 사진밖 새 장식을 생성하지 않았는지 확인",
+        "c01과 같은 HAGIA_MASTER_A 원본 파일·정규화 크롭인지 비교한다."
+      ],
+      "image_prompt_en": "Vertical 9:16 source-preserving evidence edit using HAGIA_MASTER_A, the identical authenticated interior photograph and normalized crop selected for c01. Preserve its actual viewpoint, optical perspective, illumination, masonry and ornament without synthesizing a camera or light. The fixed crop includes the dome-base ring, all four pendentive zones and enough pier context to understand the square below. Remove only explanatory editing graphics used in the preceding model sequence; no physical wall or historic ornament is removed. Keep all existing mosaic, calligraphy and source detail intact. The quiet image allows the viewer to find the geometry unaided, with shape and authentic shadows providing the clues. Do not add construction outlines, highlight fills, replacement inscriptions or newly generated religious symbols. Only restrained global exposure adjustment and the selected common crop are permitted. No new living human face or watermark may enter. This photograph must share the same source file and crop coordinates with c01 and c18.",
+      "variant_b_delta": "A/B는 같은 인증 원본의 고정 시점과 원래 빛을 유지한다. B는 더 넓은 크롭만 비교하며, 선택된 크롭을 c01/c17/c18 모두 동일하게 적용한다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "원본 위 편집 프레이밍"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "인증 원본 사진의 시점·렌즈·수직선 보존, 마지막 회수는 동일 원본 크롭으로 편집",
+        "end": "다음 컷 c18의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "실제 증거 문서·현존사진에 임의 해설 효과를 합성하지 않는다. 원본 보존 편집안과 효과판의 분리를 검토한다.",
+      "readiness": "BLOCKED_REFERENCE_IMAGE",
+      "edit_timing": {
+        "measured_narration_seconds": 2.8,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.2,
+        "overflow_seconds": 0
+      },
+      "source_frame_group": "HAGIA_MASTER_A"
+    },
+    {
+      "id": "c18",
+      "scene": "S07",
+      "narration": "동그란 천장 네 귀퉁이에서 금빛 삼각형이 하나씩 펼쳐집니다.",
+      "timing": "53.09–57.35",
+      "asset_type": "source_edit",
+      "reference_ids": [
+        "H2"
+      ],
+      "action": "첫 화면 구도 그대로 네 귀퉁이를 알아볼 시간만 남긴다.",
+      "camera": "인증 원본 사진의 시점·렌즈·수직선 보존, 마지막 회수는 동일 원본 크롭으로 편집",
+      "light": "Preserve the source photograph’s actual light direction, shadow structure and exposure; no synthetic relighting.",
+      "palette": "금빛과 따뜻한 석재 / 분석모델 차콜·창백한 돌, 새로운 네온색 과잉금지",
+      "factual_anchors": [
+        "첫 구도와 같은 현존 천장이다",
+        "마지막 펼쳐짐은 인식상의 드러남이며 물리적 전개가 아니다"
+      ],
+      "negative_prompt": "곡면을 평판으로 치환, 다섯째 코너·중앙기둥·종이두께 돔, 석조 전개·실제 구멍·공중부유·금빛 삼각판, 임의모자이크·서예·살아있는 사람얼굴·워터마크·가짜치수 금지",
+      "qa": [
+        "첫 구도와 같은 현존 천장이다인지 참조와 대조",
+        "마지막 펼쳐짐은 인식상의 드러남이며 물리적 전개가 아니다인지 확인",
+        "이 컷 하나만 무음으로 보아도 윤곽선 없이 실제 천장에서 스스로 발견의 한 단서가 읽히는지 확인",
+        "원본 시점·빛·천장곡률을 보존하며 사진밖 새 장식을 생성하지 않았는지 확인",
+        "c01과 같은 HAGIA_MASTER_A 원본 파일·정규화 크롭인지 비교한다."
+      ],
+      "image_prompt_en": "Vertical 9:16 final source-preserving still from HAGIA_MASTER_A, matching the authenticated source file, normalized crop, dome-ring position and pier spacing used for c01 and c17. The four real curved triangular corner surfaces remain readable through their original shape, surface variation and shadows. Preserve the source photograph’s actual perspective, light direction, exposure pattern, mosaics and masonry proportions. No new geometric overlay appears. The concluding image is the intact building in the chosen photograph, understood differently after the preceding sequence. Masonry does not unfold, rotate, separate or become a floating exploded dome; the narration describes a perceptual discovery. Keep the shared fixed composition quiet enough for the viewer to recognise all four corners. Only the already chosen source crop and restrained global exposure correction are permitted. No new lettering, living human faces, symbols or watermark may be generated. Actual source acquisition and derivative reuse rights remain pending before this evidence edit can be produced.",
+      "variant_b_delta": "A/B는 같은 인증 원본의 고정 시점과 원래 빛을 유지한다. B는 더 넓은 크롭만 비교하며, 선택된 크롭을 c01/c17/c18 모두 동일하게 적용한다.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": [
+          "원본 위 편집 프레이밍"
+        ],
+        "static": [
+          "건축 외형",
+          "석조 접촉부",
+          "기계 고정점",
+          "카메라 시점 간 동일한 기준형상"
+        ],
+        "camera": "인증 원본 사진의 시점·렌즈·수직선 보존, 마지막 회수는 동일 원본 크롭으로 편집",
+        "end": "다음 컷 엔딩의 핵심 대상 위치와 시선 방향을 맞춰 컷한다. 건축이 모핑하며 이동하지 않는다."
+      },
+      "effects": [],
+      "effect_selection_status": "PENDING_APPROPRIATE_DB_PAIR",
+      "effect_note": "실제 증거 문서·현존사진에 임의 해설 효과를 합성하지 않는다. 원본 보존 편집안과 효과판의 분리를 검토한다.",
+      "readiness": "BLOCKED_REFERENCE_IMAGE",
+      "edit_timing": {
+        "measured_narration_seconds": 4.26,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0,
+        "overflow_seconds": 0.26,
+        "overflow_plan": "4초 영상 뒤에 같은 승인 스틸의 정지 디테일 인서트를 추가해 남은 낭독을 잇는다. 흐르는 물·움직이는 장치를 그대로 정지시키지 않고, 석재·접촉선·종이 도판 등 정적 고정점으로 컷인한다. 최종 녹음 후 다시 배분한다."
+      },
+      "source_frame_group": "HAGIA_MASTER_A"
+    }
+  ]
+}

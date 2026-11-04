@@ -1,0 +1,829 @@
+{
+  "episode": "s17-pont-du-gard",
+  "script_review": {
+    "changes": [],
+    "remaining": [
+      "c11은 개방수로가 강으로 물을 쏟아버린 경우에 한정해 도식화한다. 압력관 역사이펀의 일반 원리까지 부정하는 화면을 만들지 않는다.",
+      "전체 님 수로 평균 경사를 교량 자체 경사로 표시하지 않는다.",
+      "실제 사진·도면 파일과 사용권 확인 전에는 재현용 프롬프트 초안이다.",
+      "물리환경 1개+정보 1개에 정확히 맞는 범용 DB 효과 조합이 부족하다. 부적합한 도로·콜로세움 효과를 강제로 붙이지 않았다."
+    ],
+    "verdict": "SCRIPT_REVIEWED_96; PROMPT_DRAFT_REFERENCE_REQUIRED"
+  },
+  "visual_bible": {
+    "format": "9:16, photorealistic archaeological reconstruction and clearly separated physical explanatory models",
+    "time_states": [
+      "present exterior with dry surviving upper channel",
+      "Roman functioning channel only in explicitly labelled editorial reconstruction"
+    ],
+    "colour": "limestone honey, natural river green, pale blue sky; cyan only if an applicable reviewed DB information layer is selected",
+    "geometry_locks": [
+      "three stacked arcade tiers preserve actual proportions",
+      "upper covered channel carries water laterally across the Gardon; river passes below",
+      "all explanatory elevations retain one consistent upstream-to-city direction"
+    ],
+    "continuity": "Present exterior and Roman water reconstruction join by matched stone edge; the building does not transform or repair itself."
+  },
+  "reference_requirements": [
+    {
+      "id": "R1",
+      "url": "https://pontdugard.fr/sites/default/files/2025-06/PDG-DE%CC%81PLIANT%20ACCUEIL-MULTI-LANGUE_FR-ANG_BD-OK.pdf",
+      "needed": "entire aqueduct route, average slope, bridge elevation and top channel condition",
+      "rights_status": "REFERENCE_REQUIRED; source URL verified in script, local asset and derivative rights not yet cleared"
+    },
+    {
+      "id": "R2",
+      "url": "https://pontdugard.fr/fr/decouvrir/monument",
+      "needed": "current bridge photographs with exact masonry, arcade count and landscape relationship",
+      "rights_status": "REFERENCE_REQUIRED; credit and derivative terms to check before image use"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "G1",
+      "cuts": [
+        "c01",
+        "c02",
+        "c03",
+        "c04"
+      ],
+      "purpose": "낯익은 강과 다리에서 두 번째 물길의 부재를 체감",
+      "location": "Gardon downstream bank, lowest arch, inner pier and bank recess",
+      "era": "present-day exterior",
+      "reveal": "upper water remains hidden",
+      "transition": "river ripple shape to underwater contour"
+    },
+    {
+      "id": "G2",
+      "cuts": [
+        "c05",
+        "c06",
+        "c07"
+      ],
+      "purpose": "강물과 도시 식수의 목적지를 구분",
+      "location": "underwater pier eddy, conceptual water droplet and valley overview",
+      "era": "present exterior and separate timeless model",
+      "reveal": "fish route differs from drinking-water route",
+      "transition": "valley elevation to top coping edge"
+    },
+    {
+      "id": "G3",
+      "cuts": [
+        "c08",
+        "c09"
+      ],
+      "purpose": "돌뚜껑이 숨긴 수로 반전",
+      "location": "uppermost coping and reference-based channel section",
+      "era": "present detail matched to Roman reconstruction",
+      "reveal": "water occupies channel directly under coping",
+      "transition": "preserve exact coping edge and change from exterior to explanatory section"
+    },
+    {
+      "id": "G4",
+      "cuts": [
+        "c10",
+        "c11"
+      ],
+      "purpose": "물의 높이를 잃으면 안 되는 이유",
+      "location": "isolated open-channel elevation model",
+      "era": "timeless analytical model",
+      "reveal": "river drop dissipates usable elevation for this open route",
+      "transition": "model ledge becomes real aqueduct grade"
+    },
+    {
+      "id": "G5",
+      "cuts": [
+        "c12",
+        "c13"
+      ],
+      "purpose": "아치와 전체 수로 경사를 하나의 목적에 연결",
+      "location": "Roman bridge elevation and whole Nîmes route model",
+      "era": "Roman editorial reconstruction",
+      "reveal": "very shallow descending route is sustained over the valley",
+      "transition": "long route profile to city receiving basin"
+    },
+    {
+      "id": "G6",
+      "cuts": [
+        "c14",
+        "c15"
+      ],
+      "purpose": "도시에 도달한 식수와 아래의 강을 동시에 확인",
+      "location": "Nîmes receiving basin and oblique bridge section",
+      "era": "Roman editorial reconstruction",
+      "reveal": "two independent flows at separate elevations",
+      "transition": "section closes by hard match-cut, not masonry morph"
+    },
+    {
+      "id": "G7",
+      "cuts": [
+        "c16",
+        "c17",
+        "c18"
+      ],
+      "purpose": "첫 풍경을 섞이지 않는 교차로로 회수",
+      "location": "first exterior camera and Roman explanatory inset",
+      "era": "present exterior and separately identified Roman inset",
+      "reveal": "one landscape contains two water directions",
+      "transition": "same camera returns with viewer knowledge; no imaginary present water in dry channel"
+    }
+  ],
+  "shots": [
+    {
+      "id": "c01",
+      "scene": "G1",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R2"
+      ],
+      "action": "강 전경에서 위쪽 물길을 숨긴 질문",
+      "camera": "24mm downstream-bank low wide; first 4s brisk push",
+      "light": "late afternoon sun from viewer-left rear",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "three arcade tiers",
+        "upper channel remains covered"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No visible water pouring from top; no modern road bridge replacing aqueduct.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm three arcade tiers",
+        "Confirm upper channel remains covered"
+      ],
+      "image_prompt_en": "Show the Pont du Gard from its downstream bank with the river crossing the lower third and the entire three-tier silhouette centred above it. Capture a bright patch of river turbulence directly beneath the main opening, while the capped uppermost course stays opaque and visually quiet. Preserve the recognizable valley and uneven ancient masonry; no water is visible on the top course. The image must pose a contradiction without revealing the channel yet. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 24mm downstream-bank low wide; first 4s brisk push. Light direction: late afternoon sun from viewer-left rear.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "24mm downstream-bank low wide; first 4s brisk push",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.39,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.61,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c02",
+      "scene": "G1",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "하부 강물을 확인",
+      "camera": "35mm near-water approach under lowest arch",
+      "light": "sun from viewer-right reflected off water",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "river lies below bridge",
+        "masonry remains fixed"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No artificial illuminated river arrows; no second river or waterfall.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm river lies below bridge",
+        "Confirm masonry remains fixed"
+      ],
+      "image_prompt_en": "Frame the lowest central arch from just above the Gardon, with a broad travelling ripple entering at viewer-left and leaving at viewer-right. Rough limestone voussoirs fill the upper edge, their reflection breaking into green water below. Keep a small margin of the distant bank visible through the opening to establish an actual river passage. The upper channel is outside this camera view, so this cut verifies only the obvious first waterway. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 35mm near-water approach under lowest arch. Light direction: sun from viewer-right reflected off water.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "35mm near-water approach under lowest arch",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.83,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.17,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c03",
+      "scene": "G1",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "돌틈을 올려다봐도 강밖에 안 보임",
+      "camera": "50mm water-height oblique at inner pier",
+      "light": "soft reflected daylight from lower viewer-left",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "solid lower pier",
+        "only river water visible here"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No tunnel cut through pier; no hidden pipe at river level.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm solid lower pier",
+        "Confirm only river water visible here"
+      ],
+      "image_prompt_en": "Place the camera beside the inner face of a lower pier, low enough that a wet limestone seam dominates the foreground and a narrow river strip remains visible beyond it. Let the repeated stone joints lead the eye upward into shadow, without inventing holes through the pier. The focal detail is water staining near the riverline rather than an exposed pipe. Give foreground stone and distant ripples different depths so this is a new piece of evidence, not another bridge postcard. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 50mm water-height oblique at inner pier. Light direction: soft reflected daylight from lower viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "50mm water-height oblique at inner pier",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.06,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.94,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c04",
+      "scene": "G1",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "空강변을 찾는 시선",
+      "camera": "70mm through a narrow side opening toward empty bank",
+      "light": "warm lateral sun from viewer-right",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "riverbank is empty",
+        "no second channel revealed"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No invented doors, pipes, reservoirs, people or labels.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm riverbank is empty",
+        "Confirm no second channel revealed"
+      ],
+      "image_prompt_en": "Look through the dark side of a lower arch toward an empty stretch of pale gravel bank, cropping the ceiling to make a restrained visual search. A thin edge of flowing green water stays at the bottom, and the solid pier edge remains close on viewer-left. The empty bank is the focal answer to the unsuccessful search; it contains no concealed outlet or dramatic doorway. Use deep shadow framing against sunlit gravel to carry the unanswered question forward. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 70mm through a narrow side opening toward empty bank. Light direction: warm lateral sun from viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "70mm through a narrow side opening toward empty bank",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.52,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.48,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c05",
+      "scene": "G2",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "물고기가 강의 경로로 감",
+      "camera": "28mm underwater side view parallel to pier",
+      "light": "dappled sunlight entering from upper viewer-left",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "one ordinary river fish",
+        "pier contacts riverbed"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No tropical fish, aquarium glass or glowing animal.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm one ordinary river fish",
+        "Confirm pier contacts riverbed"
+      ],
+      "image_prompt_en": "Use a clear shallow underwater viewpoint beside the base of an actual limestone pier. One small river fish is caught turning away downstream past the stone, its tail slightly flexed, with natural suspended particles and rippled sunlight crossing the bed. The water surface is a soft ceiling, not a transparent theatrical window onto the whole monument. The fish establishes an ordinary river route; it must not behave as a guide or share an impossible channel with the drinking-water model. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 28mm underwater side view parallel to pier. Light direction: dappled sunlight entering from upper viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "one small river fish, natural water ripples and camera only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "28mm underwater side view parallel to pier",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.9,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.1,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c06",
+      "scene": "G2",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "다른 목적지를 향하는 식수 한방울",
+      "camera": "85mm macro of a droplet leaving a stone ledge in a separate model",
+      "light": "cool side light from viewer-left with warm stone bounce",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "droplet is conceptual model",
+        "drinking-water route separate from river"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No anthropomorphic droplet, text destination or water teleportation.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm droplet is conceptual model",
+        "Confirm drinking-water route separate from river"
+      ],
+      "image_prompt_en": "Create an explicitly illustrative tabletop water model rather than a historical scene. A single clear droplet is poised to leave the edge of a narrow stone channel at viewer-right; beyond it the background is empty and out of focus. Keep the channel lip level within the frame and the water physically attached by surface tension. The droplet is an editorial point of view for water destined for a city, with no map pin, eyes, face or written destination. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 85mm macro of a droplet leaving a stone ledge in a separate model. Light direction: cool side light from viewer-left with warm stone bounce.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "85mm macro of a droplet leaving a stone ledge in a separate model",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.42,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.58,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c07",
+      "scene": "G2",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "강 너머 도시까지의 높이관계 예고",
+      "camera": "40mm elevated valley-wide view; slow lateral glide",
+      "light": "overcast daylight from sky above viewer-left",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "city is not adjacent to bridge",
+        "route continues at high elevation"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No miniature Nîmes beside bridge; no arrows or invented skyline.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm city is not adjacent to bridge",
+        "Confirm route continues at high elevation"
+      ],
+      "image_prompt_en": "Show a broad valley profile with the aqueduct bridge crossing the middle distance and the river distinctly lower below. This is a restrained archaeological landscape model based on source terrain, with the destination direction implied by the route continuing away along the high bank rather than by placing Nîmes visibly next to the bridge. Use sparse vegetation and layered atmospheric depth. The viewer should feel that water has a journey beyond this crossing without seeing a fictional city behind the next arch. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 40mm elevated valley-wide view; slow lateral glide. Light direction: overcast daylight from sky above viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "40mm elevated valley-wide view; slow lateral glide",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.81,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.19,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c08",
+      "scene": "G3",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "돌뚜껑까지 다가감",
+      "camera": "85mm top-course close view looking along coping",
+      "light": "raking sun from viewer-left",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "cover slabs closed",
+        "topmost course of bridge"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No floating slabs, open roof or visible upper water yet.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm cover slabs closed",
+        "Confirm topmost course of bridge"
+      ],
+      "image_prompt_en": "Place the camera almost level with the uppermost capped channel, looking along a sequence of worn stone cover slabs. Their seams converge into the distance and one chipped corner near the centre catches warm light. Keep the covers closed, heavy and continuous; this is the final moment before the reveal. The lower arcade is only a distant drop at the side of frame. Preserve the actual channel width and coping details from the reference, making the opaque cap feel like the important object. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 85mm top-course close view looking along coping. Light direction: raking sun from viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "85mm top-course close view looking along coping",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.63,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.37,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c09",
+      "scene": "G3",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "단면에서 흐르는 윗물을 공개",
+      "camera": "50mm oblique sectional view at same coping edge",
+      "light": "soft key from upper viewer-left",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "upper channel is open-flow under cap",
+        "river remains far below"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No pressurized pipe, inverse siphon, waterfall to river or transparent masonry everywhere.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm upper channel is open-flow under cap",
+        "Confirm river remains far below"
+      ],
+      "image_prompt_en": "Create a clearly analytical cutaway of the Roman working channel at the exact coping edge used in the previous image. Remove only a short near-side section of cover and wall by a clean vertical editorial cut, revealing a shallow open stream under the retained stone cap. The river is far below and remains visually separate. Show water touching the channel floor, with a free surface and mineral-stained lining. Keep every remaining stone solid; the cut is a model device, not an ancient opening or a dissolving building. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 50mm oblique sectional view at same coping edge. Light direction: soft key from upper viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "50mm oblique sectional view at same coping edge",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [
+        {
+          "id": "layer.scan.5",
+          "params": {
+            "대상": "one short near-side section of the covered upper Roman aqueduct channel",
+            "시작": "the viewer-left edge of that short sectional bay",
+            "끝": "the viewer-right edge of the same bay"
+          },
+          "why": "한정된해석단면의 절개범위만정의. 전체아치/수로는 고정. still_pass 상태의 원문 인용 후보."
+        }
+      ],
+      "edit_timing": {
+        "measured_narration_seconds": 2.45,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.55,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c10",
+      "scene": "G4",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "강으로 내려가는 가상선 차단",
+      "camera": "orthographic isolated elevation model",
+      "light": "studio key from upper viewer-right",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "hypothetical drop only",
+        "real channel stays high"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No actual aqueduct break, historical accident reenactment or working inverse siphon.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm hypothetical drop only",
+        "Confirm real channel stays high"
+      ],
+      "image_prompt_en": "Present an isolated physical elevation model showing a narrow high aqueduct channel and a much lower river basin. A small separate ghost-outline chute points downward only as a hypothetical comparison, ending before it joins the river; the real high channel remains intact across the top. The hypothetical object must be visually distinguishable from masonry through pale edge-only material, never portrayed as a real Roman structure. Keep the composition sparse so the cost of losing height becomes a question rather than a spectacle of collapse. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: orthographic isolated elevation model. Light direction: studio key from upper viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "orthographic isolated elevation model",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 2.51,
+        "generated_source_seconds": 4,
+        "trim_seconds": 1.49,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c11",
+      "scene": "G4",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "강높이와 도시높이를 비교",
+      "camera": "side-on 70mm model view; no zoom during elevation comparison",
+      "light": "diffuse key from high viewer-left",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "spilled open water below receiving lip",
+        "sealed pressure pipes absent"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No upward unpowered jet; no claim that all siphons are impossible.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm spilled open water below receiving lip",
+        "Confirm sealed pressure pipes absent"
+      ],
+      "image_prompt_en": "Use a side-on open-channel comparison model with a low river surface in the foreground and a raised receiving lip to viewer-right. A small quantity of water lies in the low basin, clearly below the dry lip; no stream climbs from it. The original high route is visible as a thin solid ledge behind both, showing the route that retained the usable elevation. This illustrates water already spilled into the river, not the behavior of a sealed pressure pipe. Preserve level surfaces and a stable horizon. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: side-on 70mm model view; no zoom during elevation comparison. Light direction: diffuse key from high viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "side-on 70mm model view; no zoom during elevation comparison",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.74,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.26,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c12",
+      "scene": "G5",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "세층아치로 윗길 높이를 이음",
+      "camera": "35mm architectural side elevation with slight oblique depth",
+      "light": "late sun from upper viewer-right",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "three arcade tiers",
+        "channel joins high banks"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No Roman pump, steel truss, inverted siphon or exaggerated ramp.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm three arcade tiers",
+        "Confirm channel joins high banks"
+      ],
+      "image_prompt_en": "Reveal a Roman working-bridge reconstruction in a precise side elevation with shallow oblique depth. Three stacked arcade tiers rise from the valley, supporting the narrow covered channel at the top. A thin visible strip of channel water continues between the two high banks without dropping to river level. Let the weight of the limestone piers and arch rings read through material texture, not decorative stress graphics. Keep the top profile gently descending toward the city direction and preserve the source-supported proportions of the actual bridge. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 35mm architectural side elevation with slight oblique depth. Light direction: late sun from upper viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "35mm architectural side elevation with slight oblique depth",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.24,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.76,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c13",
+      "scene": "G5",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "전체수로 평균경사의 작은 낙차를 비교",
+      "camera": "orthographic wide route-profile model with broken-distance presentation",
+      "light": "neutral diffuse top-left studio light",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "50 km describes entire route",
+        "25 cm/km is overall average"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No generated numerals, bridge-only slope label or literal 50km tabletop scale.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm 50 km describes entire route",
+        "Confirm 25 cm/km is overall average"
+      ],
+      "image_prompt_en": "Create a clearly analytical profile of the entire Nîmes aqueduct route, displayed as a long low stone-lined water channel crossing several terrain features. The vertical drop is intentionally magnified only in a separate inset model, while the main profile remains almost flat. Leave blank space for exact distance and average-slope graphics to be added in editing. Do not put a numerical slope on the Pont du Gard alone. Use distinct physical bases for the main model and magnified inset so scale compression is unambiguous. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: orthographic wide route-profile model with broken-distance presentation. Light direction: neutral diffuse top-left studio light.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "orthographic wide route-profile model with broken-distance presentation",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 5.04,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0,
+        "overflow_seconds": 1.04,
+        "overflow_plan": "4초 영상 뒤에 같은 승인 스틸의 정지 디테일 인서트를 추가해 남은 낭독을 잇는다. 흐르는 물·움직이는 장치를 그대로 정지시키지 않고, 석재·접촉선·종이 도판 등 정적 고정점으로 컷인한다. 최종 녹음 후 다시 배분한다."
+      }
+    },
+    {
+      "id": "c14",
+      "scene": "G6",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "도시 물받이에 식수가 도착",
+      "camera": "50mm low close view at receiving lip",
+      "light": "morning sun from upper viewer-left",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "water reaches the city receiving level by a gently descending route",
+        "bowl is explicitly a generic explanatory model, not the Nîmes castellum"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No ornate Trevi fountain, modern tap, invented palace or giant city.",
+      "qa": [
+        "Ensure this looks like a standalone teaching model rather than an unevidenced ancient site.",
+        "Ensure receiving lip is below the incoming channel free surface."
+      ],
+      "image_prompt_en": "Build a plainly illustrative stone-channel receiving model, not a reconstruction of any surviving Nîmes monument. A modest stream crosses a low lip into a circular collection bowl on a neutral studio base. Frame this through a 50mm lens at the lip level, looking downstream; morning-like soft illumination enters from upper viewer-left and catches the ripples. Keep the bowl geometry simple and unlabelled, with no palace, city wall or claimed archaeological detail. The physical arrival of water is the single focal event. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 50mm low close view at receiving lip. Light direction: morning sun from upper viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "50mm low close view at receiving lip",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.83,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.17,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c15",
+      "scene": "G6",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "상하 두 물길을 동시에 확인",
+      "camera": "35mm oblique bridge section from downstream flank",
+      "light": "late warm sun from viewer-left rear",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "two separate elevations",
+        "no hydraulic connection between flows"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No intersecting pipes, shared basin or elevated river-sized stream.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm two separate elevations",
+        "Confirm no hydraulic connection between flows"
+      ],
+      "image_prompt_en": "Frame a wide oblique editorial section through one short upper-channel bay while retaining the full three-tier bridge silhouette behind it; this is a clean physical section, not an x-ray shell. A clear shallow stream travels laterally through the elevated channel, while the broad natural river crosses the foreground beneath the lowest arches. Separate the two surfaces by real height and solid masonry, not by arbitrary colored sheets. The camera angle must make their different travel directions legible without implying a literal cross-junction in plan or any mixing between them. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 35mm oblique bridge section from downstream flank. Light direction: late warm sun from viewer-left rear.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "35mm oblique bridge section from downstream flank",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 4.07,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0,
+        "overflow_seconds": 0.07,
+        "overflow_plan": "4초 영상 뒤에 같은 승인 스틸의 정지 디테일 인서트를 추가해 남은 낭독을 잇는다. 흐르는 물·움직이는 장치를 그대로 정지시키지 않고, 석재·접촉선·종이 도판 등 정적 고정점으로 컷인한다. 최종 녹음 후 다시 배분한다."
+      }
+    },
+    {
+      "id": "c16",
+      "scene": "G7",
+      "asset_type": "reconstruction",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "오늘풍경으로 되돌아옴",
+      "camera": "same24mm downstream-bank lens as c01",
+      "light": "same late sun from viewer-left rear",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "matches first camera",
+        "present channel not shown running"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No active current upper water, self-repair, shifting masonry or new buildings.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm matches first camera",
+        "Confirm present channel not shown running"
+      ],
+      "image_prompt_en": "Return to the exact downstream-bank composition of the opening image using the same lens height, horizon and main pier placement. The monument is the present surviving bridge, its upper channel covered and no imaginary stream visible at roof level. Natural river reflections supply the only physical motion. Hold an unobstructed view of the top course so the viewer now understands what was hidden there. This return should feel visually familiar but cognitively changed, with no time-lapse rebuilding or slabs flying back into place. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: same24mm downstream-bank lens as c01. Light direction: same late sun from viewer-left rear.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "same24mm downstream-bank lens as c01",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.49,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.51,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c17",
+      "scene": "G7",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "물한방울 시점으로 높은길을 읽음",
+      "camera": "70mm along covered top course; short lateral glide",
+      "light": "low sun from viewer-right",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "droplet is editorial device",
+        "present exterior stays dry"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No fantasy floating water creature or modern working channel.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm droplet is editorial device",
+        "Confirm present exterior stays dry"
+      ],
+      "image_prompt_en": "Follow the upper course from an elevated side viewpoint, with the cover slabs forming a narrow route across the centre of frame. Place a small separate water-droplet-shaped optical highlight only in a separate analytical inset, with any explanatory identification added in post-production rather than generated inside the image, not physically hovering over the present monument. The main photographic reconstruction remains an intact dry exterior. The inset is tied spatially to a single channel section and explains the remembered Roman water route. Keep all highlights restrained so the building remains the subject and the final two-waterway image is still earned. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: 70mm along covered top course; short lateral glide. Light direction: low sun from viewer-right.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "70mm along covered top course; short lateral glide",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 3.61,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0.39,
+        "overflow_seconds": 0
+      }
+    },
+    {
+      "id": "c18",
+      "scene": "G7",
+      "asset_type": "analytical_model",
+      "reference_ids": [
+        "R1"
+      ],
+      "action": "서로섞이지 않는 두 흐름을 엔딩",
+      "camera": "locked35mm Roman reconstruction with same landmark pier as opening",
+      "light": "warm key from viewer-left",
+      "palette": "natural limestone ochre, river green, restrained warm highlights",
+      "factual_anchors": [
+        "upper water separate from river",
+        "Roman state explicitly reconstruction"
+      ],
+      "negative_prompt": "No people, faces, lettering, fake inscriptions, logos, watermark, extra architecture. No mixing, waterfall, contemporary tourists or giant unreal water volumes.",
+      "qa": [
+        "Compare camera-facing geometry with the specified source before generation.",
+        "Confirm upper water separate from river",
+        "Confirm Roman state explicitly reconstruction"
+      ],
+      "image_prompt_en": "Close with one restrained Roman working-state section, seen from the same downstream side as the first image. The upper channel carries its small stream across the frame while the Gardon sweeps beneath it at a different direction and elevation. Use a clean near-side section only at one top bay so the relationship remains readable; most of the bridge stays opaque and believable. Hold one complete image of independent flows sharing a landscape. Do not add a third path, a numerical caption or a final decorative diagram. Vertical 9:16 cinematic architectural editorial reconstruction, one focal fact centred in frame and readable at phone size. Keep the upper and lower caption bands uncluttered. Preserve the referenced geometry and material scale. Render no people, faces, lettering, numerals, logos, watermarks or decorative diagrams. This is a reconstruction or analytical illustration, never an archival photograph. Camera: locked35mm Roman reconstruction with same landmark pier as opening. Light direction: warm key from viewer-left.",
+      "variant_b_delta": "Keep subject, geometry and event identical. Change the camera azimuth by at most 15 degrees and soften the key light from the same physical source; preserve screen direction.",
+      "video_handoff": {
+        "duration": 4,
+        "movers": "camera and the indicated water or explanatory illumination only",
+        "static": "all masonry, channel walls, arches, banks and skyline",
+        "camera": "locked35mm Roman reconstruction with same landmark pier as opening",
+        "end": "Hold the single focal relationship; do not add a new event or change historical state."
+      },
+      "effects": [],
+      "edit_timing": {
+        "measured_narration_seconds": 4.96,
+        "generated_source_seconds": 4,
+        "trim_seconds": 0,
+        "overflow_seconds": 0.96,
+        "overflow_plan": "4초 영상 뒤에 같은 승인 스틸의 정지 디테일 인서트를 추가해 남은 낭독을 잇는다. 흐르는 물·움직이는 장치를 그대로 정지시키지 않고, 석재·접촉선·종이 도판 등 정적 고정점으로 컷인한다. 최종 녹음 후 다시 배분한다."
+      }
+    }
+  ]
+}
