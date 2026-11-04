@@ -24,7 +24,7 @@
       "id": "T1",
       "url": "https://halifax.citynews.ca/2025/03/22/a-rare-peek-at-the-hidden-waterworks-behind-romes-trevi-fountain/",
       "needed": "원 관리실·실제 명단·목문·현대 제어실의 인증 고해상도 사진 또는 영상 프레임",
-      "rights_status": "설명 출처 확인, 이미지 취득·재사용 권리 미확인"
+      "rights_status": "AP 재배포 사진 11개 연구용 사본 확보·시각 검토. reference-assets.json에 등록. 게시·AI 편집용 라이선스 미확보."
     },
     {
       "id": "T2",
@@ -37,6 +37,12 @@
       "url": "https://www.a-acqua.it/en/water-in-all-its-forms",
       "needed": "분수 보충 공급과 현대 순환의 관계",
       "rights_status": "사진 재사용 권리 미확인"
+    },
+    {
+      "id": "T4",
+      "url": "https://www.acea.it/comunicati-stampa/2025/10/giornate-fai-acea-apre-le-porte-della-camera-di-manovra-della-fontana-di-trevi-e-di-acea-heritage-il-palazzo-dellacqua-e-della-luce",
+      "needed": "물 배분표와 역사적·현대적 관리 공간의 운영사 확인",
+      "rights_status": "설명 근거 확인. 이미지 재사용 허가는 별도 확인 필요."
     }
   ],
   "scenes": [
@@ -1041,5 +1047,18 @@
         "overflow_seconds": 0
       }
     }
-  ]
+  ],
+  "research_update": {
+    "date": "2026-11-05",
+    "report": "research.md",
+    "asset_manifest": "reference-assets.json",
+    "images_located": 11,
+    "images_visually_checked": 11,
+    "licensed_images": 0,
+    "script_revision_pending": [
+      "c09 공급대상에 기관도 포함",
+      "c14 펌프 대수 출처 충돌로 개수 생략 권고"
+    ],
+    "no_narration_change": true
+  }
 }

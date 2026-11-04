@@ -1,0 +1,295 @@
+{
+  "schema": 1,
+  "researched_at": "2026-11-05",
+  "scope": "S14 Trevi",
+  "source_article": "Trisha Thomas / Associated Press, 2025-03-22",
+  "note": "AP 문서·사진의 공개 접근과 영상/생성모델용 사용권은 별도다. 이 파일의 번호는 내부관리번호이며 AP 카탈로그 ID가 아니다.",
+  "assets": [
+    {
+      "id": "S14-R01",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_03798.jpg",
+      "ap_catalog_id": null,
+      "subject": "옛 관리실의 실제 배분표와 수위계",
+      "cuts": [
+        "c01",
+        "c08",
+        "c09",
+        "c18"
+      ],
+      "viewed": true,
+      "visual_notes": "배분표는 넓은 두 열과 행 번호가 있으며 일부가 회반죽처럼 가려져 있다. 귀족 외 학교·수도원 이름도 보인다. 가려진 행을 AI로 복원하지 않는다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_03798.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_03798.jpg",
+      "bytes": 4901216,
+      "sha256": "92efbd558114bd6485e51d355e45e3834de5a01d538f52a78db9c995c54804ac",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        8640,
+        5760
+      ]
+    },
+    {
+      "id": "S14-R02",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_30317.jpg",
+      "ap_catalog_id": null,
+      "subject": "현대 관리실 전경",
+      "cuts": [
+        "c06",
+        "c07",
+        "c14"
+      ],
+      "viewed": true,
+      "visual_notes": "푸른 전기반, 판상 바닥, 금속 탱크와 설비. 이 사진만으로 펌프 총대수나 직렬·병렬은 판정하지 않는다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_30317.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_30317.jpg",
+      "bytes": 4385245,
+      "sha256": "4877298c5a7ff966af9b74dbce669607644f0b743115ba46b4455c7f67aa4385",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        8640,
+        5760
+      ]
+    },
+    {
+      "id": "S14-R03",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_34409.jpg",
+      "ap_catalog_id": null,
+      "subject": "현대 조작반 근접",
+      "cuts": [
+        "c07",
+        "c14"
+      ],
+      "viewed": true,
+      "visual_notes": "색 램프와 스위치가 보인다. 새 글자를 생성하거나 실제 조작 기능을 추측하지 않는다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_34409.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_34409.jpg",
+      "bytes": 3453507,
+      "sha256": "1ac29afac8ef121bc5fc55965133e9b86f28230ed30a35619e154ed8a557a9b8",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        7480,
+        4987
+      ]
+    },
+    {
+      "id": "S14-R04",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_52536.jpg",
+      "ap_catalog_id": null,
+      "subject": "옛 관리실의 통로와 바닥",
+      "cuts": [
+        "c08"
+      ],
+      "viewed": true,
+      "visual_notes": "유리 바닥 통로와 벽의 과거 장치가 보인다. 현대 푸른 제어실과 같은 방으로 합치지 않는다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_52536.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_52536.jpg",
+      "bytes": 1749251,
+      "sha256": "b25b04b2a5f1de2fdfcf5d000e423b4edabc9f5bfcf59de0a609d91d3a09658e",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        5616,
+        3744
+      ]
+    },
+    {
+      "id": "S14-R05",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_77808.jpg",
+      "ap_catalog_id": null,
+      "subject": "옛 석조 아치 아래 배관",
+      "cuts": [
+        "c08",
+        "c13"
+      ],
+      "viewed": true,
+      "visual_notes": "조적 아치 아래 금속 배관. 화면 밖 연결을 복원하지 않는다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_77808.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_77808.jpg",
+      "bytes": 5127222,
+      "sha256": "4d9d72702dd3a267f24b4f8daa3d673a436e7462525506a164dc6e680ee0d652",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        8640,
+        5760
+      ]
+    },
+    {
+      "id": "S14-R06",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_00138.jpg",
+      "ap_catalog_id": null,
+      "subject": "측면 나무 출입문",
+      "cuts": [
+        "c04",
+        "c05"
+      ],
+      "viewed": true,
+      "visual_notes": "실제 문은 보이는 개폐 상태를 보존한다. 새 실내를 이어 붙이지 않는다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_00138.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_00138.jpg",
+      "bytes": 3657792,
+      "sha256": "9231a90d82547789afd9c9f72a932684a3f5ec59f75f40858c7baa8acddc1d17",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        5166,
+        3444
+      ]
+    },
+    {
+      "id": "S14-R07",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_80041.jpg",
+      "ap_catalog_id": null,
+      "subject": "내부 철창 창문",
+      "cuts": [
+        "c04",
+        "c08"
+      ],
+      "viewed": true,
+      "visual_notes": "분수 조각 사이 창의 실내 방향. 창살과 외부 방향을 잠근다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_80041.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_80041.jpg",
+      "bytes": 4654872,
+      "sha256": "19c80d6683774af302f2f154e324e96c1378d26d2bc250fd94e36f21d284ec29",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        8332,
+        5555
+      ]
+    },
+    {
+      "id": "S14-R08",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_80341.jpg",
+      "ap_catalog_id": null,
+      "subject": "관리실에서 본 분수",
+      "cuts": [
+        "c16"
+      ],
+      "viewed": true,
+      "visual_notes": "실내에서 수반과 광장을 내다보는 실제 시점. 전면에서 보던 방향과 반대다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_80341.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_80341.jpg",
+      "bytes": 2433498,
+      "sha256": "246fa8a7823c7997ef6c572b635a890f20755d467e64b7ad3de915e7056527c4",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        4845,
+        3230
+      ]
+    },
+    {
+      "id": "S14-R09",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_24766.jpg",
+      "ap_catalog_id": null,
+      "subject": "창가 작업자와 분수 시야",
+      "cuts": [
+        "c08",
+        "c16"
+      ],
+      "viewed": true,
+      "visual_notes": "사람 실루엣이 있다. 제거·변형 권한은 미확인이다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_24766.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_24766.jpg",
+      "bytes": 1673128,
+      "sha256": "cad4d8b907dc41e08b873f51d1181c136c6e75054b2ca29f61879fbced577d48",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        5461,
+        3641
+      ]
+    },
+    {
+      "id": "S14-R10",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_45577.jpg",
+      "ap_catalog_id": null,
+      "subject": "철창 너머 수반과 광장",
+      "cuts": [
+        "c16"
+      ],
+      "viewed": true,
+      "visual_notes": "철창 전경과 광장 배경. 허용된 경우에만 크롭한다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_45577.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_45577.jpg",
+      "bytes": 5345932,
+      "sha256": "5be12005fb64f04862ff0d746ae68d81ca586654c78c10aa96eaf61881d70188",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        8214,
+        5476
+      ]
+    },
+    {
+      "id": "S14-R11",
+      "publisher_filename": "EUR-GEN_ITALIA-FONTANA_DE_TREVI_20112.jpg",
+      "ap_catalog_id": null,
+      "subject": "트레비 전면",
+      "cuts": [
+        "c03",
+        "c16"
+      ],
+      "viewed": true,
+      "visual_notes": "전면 구도와 조각·수반 배치를 확인한다. 군중이 있어 프롬프트 얼굴 규칙과 구분한다.",
+      "source_page": "https://www.independentespanol.com/noticias/un-inusual-vistazo-al-sistema-hidraulicas-oculto-tras-la-fontana-de-trevi-en-roma-b2719772.html",
+      "image_url": "https://static.independentespanol.com/2025/03/22/08/EUR-GEN_ITALIA-FONTANA_DE_TREVI_20112.jpg",
+      "local_file": "E:/01_ PersonalProject/02_VideoProduction/archi-shorts/s14-roma-trevi/references/research-only-2026-11-05/EUR-GEN_ITALIA-FONTANA_DE_TREVI_20112.jpg",
+      "bytes": 4024754,
+      "sha256": "b933ad421e61c60007d087bf79b401fdf06042a67c68469a84f7edd979f1715b",
+      "credit": "AP Photo / Andrew Medichini",
+      "shoot_date": "2025-03-19 (AP series caption)",
+      "rights_status": "RESEARCH_COPY_ONLY_NOT_LICENSED",
+      "publication_permitted": "UNCONFIRMED",
+      "ai_image_editing_permitted": "UNCONFIRMED",
+      "dimensions": [
+        5512,
+        3675
+      ]
+    }
+  ]
+}
